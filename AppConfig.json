@@ -1,6 +1,6 @@
 {
   "maintenance": false,
-  "build": 12100,
-  "update_url": "https://github.com/rhenwinch/Flixclusive/latest/releases/",
-  "tmdb_api_key": "8d6d91941230817f7807d643736e8a49"
+  "build": 1210000,
+  "update_url": "https://github.com",
+  "tmdb_api_key": "45f95f8ac75cf5b9b90713ed70664eb7"
 }
