@@ -17,6 +17,13 @@
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US"
     },
     {
+      "name": "Anime",
+      "type": "all",
+      "required": true,
+      "canPaginate": true,
+      "query": "discover/tv?include_adult=false&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&vote_count.gte=300&with_genres=16&with_original_language=ja"
+    },
+    {
       "name": "Modern Movie Classics",
       "type": "movie",
       "required": true,
