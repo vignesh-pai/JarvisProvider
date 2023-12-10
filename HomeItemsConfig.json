@@ -159,7 +159,7 @@
       "type": "movie",
       "required": false,
       "canPaginate": true,
-      "posterType": "sqare",
+      "posterType": "square",
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_genres=27"
     },
     {
