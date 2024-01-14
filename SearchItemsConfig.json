@@ -270,8 +270,8 @@
     {
       "id": 16,
       "type": "all",
-      "name": "Animation",
-      "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_genres=16"
+      "name": "Anime",
+      "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&with_genres=16&with_original_language=ja"
     },
     {
       "id": 35,
