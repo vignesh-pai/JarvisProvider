@@ -1,0 +1,19 @@
+{
+  "anime": [
+    {
+      "name": "JuJutsu kaisen",
+      "type": "anime",
+      "tmdbId": 95479,
+      "seasons": [
+        {
+            "seasonNumber" : 1,
+            "totalEpisodes": 24
+        },
+        {
+            "seasonNumber" : 2,
+            "totalEpisodes": 23
+        }
+      ]
+    }
+  ]
+}
