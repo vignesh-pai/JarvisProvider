@@ -7,10 +7,12 @@
       "seasons": [
         {
             "seasonNumber" : 1,
+            "airDate" : "2020-10-03",
             "totalEpisodes": 24
         },
         {
             "seasonNumber" : 2,
+            "airDate" : "2023-07-06",
             "totalEpisodes": 23
         }
       ]
