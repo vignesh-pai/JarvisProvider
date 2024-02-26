@@ -1,5 +1,6 @@
 {
   "maintenance": false,
   "build": 16,
+  "build_name": "v2.5",
   "update_url": "https://bit.ly/JarvisV2_5"
 }
