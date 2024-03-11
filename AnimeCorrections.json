@@ -16,6 +16,23 @@
             "totalEpisodes": 23
         }
       ]
+    },
+    {
+      "name": "MASHLE: MAGIC AND MUSCLES (2023)",
+      "type": "anime",
+      "tmdbId": 204832,
+      "seasons": [
+        {
+            "seasonNumber" : 1,
+            "airDate" : "2023-04-08",
+            "totalEpisodes": 12
+        },
+        {
+            "seasonNumber" : 2,
+            "airDate" : "2024-01-02",
+            "totalEpisodes": 12
+        }
+      ]
     }
   ]
 }
