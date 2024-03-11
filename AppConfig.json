@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 16,
-  "build_name": "v2.5",
+  "build": 17,
+  "build_name": "v2.6",
   "update_info": "Fixes:\n- Fixed showflix.\n- Added zoechip source.\n- Fixed anime season correction",
-  "update_url": "https://bit.ly/JarvisV2_5"
+  "update_url": "https://bit.ly/JarvisV2_6"
 }
