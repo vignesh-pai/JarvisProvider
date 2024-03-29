@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 17,
-  "build_name": "v2.6",
-  "update_info": "Fixes:\n- Fixed showflix.\n- Added zoechip source.\n- Fixed anime season correction",
-  "update_url": "https://bit.ly/JarvisV2_6"
+  "build": 18,
+  "build_name": "v2.7",
+  "update_info": "Fixes:\n- Server mismatch fixed after next episode clicked.\n- Added VStream source.\n- Search UI desing modifications.\n- Initial system volume mismatch fixed",
+  "update_url": "https://bit.ly/JarvisV2_7"
 }
