@@ -58,7 +58,7 @@
     {
       "server": "Rstream",
       "url": "https://remotestream.cc",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "Flixon",
@@ -68,7 +68,7 @@
     {
       "server": "Smashy",
       "url": "https://embed.smashystream.com",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "Goku",
@@ -83,7 +83,7 @@
     {
       "server": "MoFlix",
       "url": "https://moflix-stream.xyz",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "Animetosho",
