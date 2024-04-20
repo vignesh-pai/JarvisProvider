@@ -1,0 +1,115 @@
+{
+    "twoembedApi": {
+      "url": "https://www.2embed.cc",
+      "enabled": true
+    },
+    "vidsrcApi": {
+      "url": "https://vidsrc.me",
+      "enabled": true
+    },
+    "filmxyApi": {
+      "url": "https://www.filmxy.vip",
+      "enabled": true
+    },
+    "aniWatchApi": {
+      "url": "https://aniwatchtv.to",
+      "enabled": true
+    },
+    "hiAnimeApi": {
+      "url": "https://hianime.to",
+      "enabled": true
+    },
+    "aniWaveApi": {
+      "url": "https://aniwave.to",
+      "enabled": true
+    },
+    "crunchyrollApi": {
+      "url": "https://beta-api.crunchyroll.com",
+      "enabled": true
+    },
+    "kisskhApi": {
+      "url": "https://kisskh.co",
+      "enabled": true
+    },
+    "lingApi": {
+      "url": "https://ling-online.net",
+      "enabled": true
+    },
+    "vidsrcToApi": {
+      "url": "https://vidsrc.to",
+      "enabled": true
+    },
+    "rstreamApi": {
+      "url": "https://remotestream.cc",
+      "enabled": true
+    },
+    "flixonApi": {
+      "url": "https://flixon.lol",
+      "enabled": true
+    },
+    "smashyApi": {
+      "url": "https://embed.smashystream.com",
+      "enabled": true
+    },
+    "watchSoMuchApi": {
+      "url": "https://watchsomuch.tv",
+      "enabled": true
+    },
+    "gokuApi": {
+      "url": "https://goku.sx",
+      "enabled": true
+    },
+    "allMovieLandApi": {
+      "url": "https://allmovieland.fun",
+      "enabled": true
+    },
+    "anilisApi": {
+      "url": "https://graphql.anilist.co",
+      "enabled": true
+    },
+    "malsyncApi": {
+      "url": "https://api.malsync.moe",
+      "enabled": true
+    },
+    "moflixApi": {
+      "url": "https://moflix-stream.xyz",
+      "enabled": true
+    },
+    "animetoshoApi": {
+      "url": "https://animetosho.org",
+      "enabled": true
+    },
+    "jikanApi": {
+      "url": "https://api.jikan.moe/v4",
+      "enabled": true
+    },
+    "showflixApi": {
+      "url": "https://showflix.lol",
+      "enabled": true
+    },
+    "aoneroomApi": {
+      "url": "https://api3.aoneroom.com",
+      "enabled": true
+    },
+    "vegaApi": {
+      "url": "https://vegamovies.ong",
+      "enabled": true
+    },
+    "dotMoviesApi": {
+      "url": "https://luxmovies.biz",
+      "enabled": true
+    },
+    "dahmerApi": {
+      "url": "https://odd-bird-1319.zwuhygoaqe.workers.dev",
+      "enabled": true
+    },
+    "zoechipApi": {
+      "url": "https://zoechip.org",
+      "enabled": true
+    },
+    "vadapavApi": {
+      "url": "https://vadapav.mov",
+      "enabled": true
+    }
+  }
+  
