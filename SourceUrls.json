@@ -71,11 +71,6 @@
       "enabled": true
     },
     {
-      "server": "WatchSoMuch",
-      "url": "https://watchsomuch.tv",
-      "enabled": true
-    },
-    {
       "server": "Goku",
       "url": "https://goku.sx",
       "enabled": true
@@ -86,16 +81,6 @@
       "enabled": true
     },
     {
-      "server": "Anilist",
-      "url": "https://graphql.anilist.co",
-      "enabled": true
-    },
-    {
-      "server": "Malsync",
-      "url": "https://api.malsync.moe",
-      "enabled": true
-    },
-    {
       "server": "MoFlix",
       "url": "https://moflix-stream.xyz",
       "enabled": true
@@ -103,11 +88,6 @@
     {
       "server": "Animetosho",
       "url": "https://animetosho.org",
-      "enabled": true
-    },
-    {
-      "server": "jikan",
-      "url": "https://api.jikan.moe/v4",
       "enabled": true
     },
     {
