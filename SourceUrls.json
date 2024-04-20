@@ -21,6 +21,11 @@
       "enabled": true
     },
     {
+      "server": "NowTv",
+      "url": "https://myfilestorage.xyz",
+      "enabled": true
+    },
+    {
       "server": "HiAnime",
       "url": "https://hianime.to",
       "enabled": true
