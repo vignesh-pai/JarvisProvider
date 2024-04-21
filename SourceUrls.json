@@ -121,6 +121,11 @@
       "enabled": true
     },
     {
+      "server": "EMovies",
+      "url": "https://emovies.si",
+      "enabled": true
+    },
+    {
       "server": "VStream",
       "url": "https://vadapav.mov",
       "enabled": true
