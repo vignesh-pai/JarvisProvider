@@ -31,7 +31,7 @@
       "type": "movie",
       "required": true,
       "canPaginate": true,
-      "posterType": "square",
+      "posterType": "normal",
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=vote_average.desc&vote_count.gte=300&watch_region=US"
     },
     {
@@ -127,7 +127,7 @@
       "type": "all",
       "required": false,
       "canPaginate": true,
-      "posterType": "square",
+      "posterType": "normal",
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_genres=18"
     },
     {
@@ -159,7 +159,7 @@
       "type": "movie",
       "required": false,
       "canPaginate": true,
-      "posterType": "square",
+      "posterType": "normal",
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_genres=27"
     },
     {
