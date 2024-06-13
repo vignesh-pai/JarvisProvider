@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 19,
-  "build_name": "v2.8",
-  "update_info": "Fixes:\n- EMovies source added.\n- Added Cast feature (Experimental) only available for sources like Vstream,Vega.\n- Dynamic source Url handling.",
-  "update_url": "https://bit.ly/JarvisV2_8"
+  "build": 20,
+  "build_name": "v2.9",
+  "update_info": "Features:\n- TV app added \n- Skip buttons for anime added.\n- Seamless next episode play",
+  "update_url": "https://bit.ly/JarvisV2_9"
 }
