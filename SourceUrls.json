@@ -46,6 +46,11 @@
       "enabled": true
     },
     {
+      "server": "Noverse",
+      "url": "https://www.thenollyverse.com",
+      "enabled": true
+    },
+    {
       "server": "Ling",
       "url": "https://ling-online.net",
       "enabled": true
