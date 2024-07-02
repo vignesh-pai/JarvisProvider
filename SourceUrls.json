@@ -51,6 +51,11 @@
       "enabled": true
     },
     {
+      "server": "MultiEmbed",
+      "url": "https://multiembed.mov",
+      "enabled": true
+    },
+    {
       "server": "Ling",
       "url": "https://ling-online.net",
       "enabled": true
