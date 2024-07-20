@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 20,
-  "build_name": "v2.9",
-  "update_info": "Features:\n- TV app added \n- Skip buttons for anime added.\n- Seamless next episode play",
-  "update_url": "https://bit.ly/JarvisV2_9"
+  "build": 21,
+  "build_name": "v3.0",
+  "update_info": "Features:\n- TV app is stable now \n- watchlist feature for tv added \n- All movie land fixed.\n- Added multiembedd source \n- Added noverse source",
+  "update_url": "https://bit.ly/JarvisV3"
 }
