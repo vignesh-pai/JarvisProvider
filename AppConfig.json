@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 21,
-  "build_name": "v3.0",
-  "update_info": "Features:\n- TV app is stable now \n- watchlist feature for tv added \n- All movie land fixed.\n- Added multiembedd source \n- Added noverse source",
-  "update_url": "https://bit.ly/JarvisV3"
+  "build": 22,
+  "build_name": "v3.1",
+  "update_info": "Features:\n- Auto update screen added to TV \n- New immersive carousel for mobile \n- Minor bug fixes \n- Seamless next episode play in TV",
+  "update_url": "https://bit.ly/JarvisV3_1"
 }
