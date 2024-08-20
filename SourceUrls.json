@@ -107,7 +107,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.ong",
+      "url": "https://vegamovies.gs",
       "enabled": true
     },
     {
@@ -117,12 +117,12 @@
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.biz",
+      "url": "https://luxmovies.live",
       "enabled": true
     },
     {
       "server": "Dahmer",
-      "url": "https://odd-bird-1319.zwuhygoaqe.workers.dev",
+      "url": "https://worker-square-heart-580a.uieafpvtgl.workers.dev",
       "enabled": true
     },
     {
