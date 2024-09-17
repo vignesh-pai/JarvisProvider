@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 22,
-  "build_name": "v3.1",
-  "update_info": "Features:\n- Auto update screen added to TV \n- New immersive carousel for mobile \n- Minor bug fixes \n- Seamless next episode play in TV",
-  "update_url": "https://bit.ly/JarvisV3_1"
+  "build": 23,
+  "build_name": "v3.2",
+  "update_info": "Features:\n- Preview thumbnail added to player \n- Provider updates \n- Support for FFMpeg codes \n- TV UI updates",
+  "update_url": "https://bit.ly/JarvisV3_2"
 }
