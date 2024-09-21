@@ -139,6 +139,16 @@
       "server": "VStream",
       "url": "https://vadapav.mov",
       "enabled": true
+    },
+    {
+      "server": "MoviesMod",
+      "url": "https://moviesmod.fit",
+      "enabled": true
+    },
+    {
+      "server": "MoviesDrive",
+      "url": "https://moviesdrive.world",
+      "enabled": true
     }
   ]
 }
