@@ -13,7 +13,7 @@
     {
       "server": "Filmxy",
       "url": "https://www.filmxy.vip",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "Aniwatch",
@@ -38,7 +38,7 @@
     {
       "server": "Crunchyroll",
       "url": "https://beta-api.crunchyroll.com",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "Kisskh",
@@ -48,7 +48,7 @@
     {
       "server": "Noverse",
       "url": "https://www.thenollyverse.com",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "MultiEmbed",
@@ -73,7 +73,7 @@
     {
       "server": "Flixon",
       "url": "https://flixon.lol",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "Smashy",
@@ -83,7 +83,7 @@
     {
       "server": "Goku",
       "url": "https://goku.sx",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "AllMovieLand",
