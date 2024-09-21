@@ -149,6 +149,11 @@
       "server": "MoviesDrive",
       "url": "https://moviesdrive.world",
       "enabled": true
+    },
+    {
+      "server": "Dreamfilm",
+      "url": "https://dreamfilmsw.info",
+      "enabled": true
     }
   ]
 }
