@@ -164,6 +164,11 @@
       "server": "Movies4u",
       "url": "https://movies4u.poker",
       "enabled": true
+    },
+    {
+      "server": "MultiMovies",
+      "url": "https://multimovies.sbs",
+      "enabled": true
     }
   ]
 }
