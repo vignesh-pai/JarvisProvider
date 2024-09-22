@@ -154,6 +154,16 @@
       "server": "Dreamfilm",
       "url": "https://dreamfilmsw.info",
       "enabled": true
+    },
+    {
+      "server": "Bollyflix",
+      "url": "https://bollyflix.beer",
+      "enabled": true
+    },
+    {
+      "server": "Movies4u",
+      "url": "https://movies4u.poker",
+      "enabled": true
     }
   ]
 }
