@@ -23,7 +23,7 @@
     {
       "server": "NowTv",
       "url": "https://myfilestorage.xyz",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "HiAnime",
