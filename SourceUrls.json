@@ -169,6 +169,11 @@
       "server": "MultiMovies",
       "url": "https://multimovies.sbs",
       "enabled": true
+    },
+    {
+      "server": "Anitaku",
+      "url": "https://anitaku.pe",
+      "enabled": true
     }
   ]
 }
