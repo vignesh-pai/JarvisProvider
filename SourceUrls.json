@@ -101,6 +101,16 @@
       "enabled": true
     },
     {
+      "server": "Nepu",
+      "url": "https://nepu.to",
+      "enabled": true
+    },
+    {
+      "server": "AnimePahe",
+      "url": "https://animepahe.ru",
+      "enabled": true
+    },
+    {
       "server": "Showflix",
       "url": "https://showflix.lol",
       "enabled": true
