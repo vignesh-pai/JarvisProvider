@@ -35,12 +35,12 @@
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=vote_average.desc&vote_count.gte=300&watch_region=US"
     },
     {
-      "name": "Gems from the 2000s",
-      "type": "movie",
+      "name": "On the Air Anime",
+      "type": "tv",
       "required": false,
       "canPaginate": true,
       "posterType": "normal",
-      "query": "discover/movie?include_adult=false&include_video=false&language=en-US&primary_release_date.gte=2000-01-01&primary_release_date.lte=2009-12-31&sort_by=popularity.desc&vote_count.gte=300&watch_region=US"
+      "query": "/discover/tv?with_keywords=210024|222243&sort_by=popularity.desc&air_date.lte=${getDate().nextWeek}&air_date.gte=${getDate().today}"
     },
     {
       "name": "The Golden 2010s",
