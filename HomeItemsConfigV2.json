@@ -35,14 +35,6 @@
       "query": "/discover/movie?&with_keywords=210024|222243"
     },
     {
-      "name": "The Golden 2010s",
-      "type": "movie",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/movie?include_adult=false&include_video=false&language=en-US&primary_release_date.gte=2010-01-01&primary_release_date.lte=2019-12-31&sort_by=popularity.desc&vote_count.gte=300&watch_region=US"
-    },
-    {
       "name": "Past Year Movies",
       "type": "movie",
       "required": false,
@@ -299,14 +291,6 @@
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_companies=21"
     },
     {
-      "name": "Lionsgate Meta",
-      "type": "movie",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_companies=35|1632"
-    },
-    {
       "name": "Popular Movie Reboots",
       "type": "movie",
       "required": false,
@@ -361,14 +345,6 @@
       "canPaginate": true,
       "posterType": "normal",
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_keywords=12377"
-    },
-    {
-      "name": "Dystopian Flicks",
-      "type": "movie",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_keywords=4458"
     }
   ],
   "tv": [
@@ -413,14 +389,6 @@
       "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_keywords=12377"
     },
     {
-      "name": "Dystopian Future",
-      "type": "tv",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_keywords=4458"
-    },
-    {
       "name": "Anime",
       "type": "all",
       "required": false,
@@ -429,36 +397,12 @@
       "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_keywords=210024&with_original_language=ja"
     },
     {
-      "name": "2000s Nostalgic Shows",
-      "type": "tv",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/tv?first_air_date.gte=2000-01-01&first_air_date.lte=2009-12-31&include_adult=false&include_null_first_air_dates=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US"
-    },
-    {
       "name": "K-Drama Hits",
       "type": "all",
       "required": false,
       "canPaginate": true,
       "posterType": "normal",
       "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_original_language=ko"
-    },
-    {
-      "name": "Binge-Worthy Action & Adventures",
-      "type": "tv",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_genres=10759"
-    },
-    {
-      "name": "Kids Party Pop",
-      "type": "tv",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_genres=10762"
     },
     {
       "name": "Top Sci-Fi & Fantasy Shows",
@@ -507,14 +451,6 @@
       "canPaginate": true,
       "posterType": "normal",
       "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_genres=99"
-    },
-    {
-      "name": "TV Crime Picks",
-      "type": "all",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_genres=80"
     },
     {
       "name": "Laugh Out Loud!",
@@ -605,28 +541,12 @@
       "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_networks=16&without_genres=10763"
     },
     {
-      "name": "ABC Classics",
-      "type": "tv",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_networks=2&without_genres=10763"
-    },
-    {
       "name": "Cartoon Network Overload",
       "type": "tv",
       "required": false,
       "canPaginate": true,
       "posterType": "normal",
       "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.l̥desc&vote_count.gte=300&watch_region=US&with_networks=56"
-    },
-    {
-      "name": "USA Network Shows",
-      "type": "tv",
-      "required": false,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_networks=30"
     }
   ]
 }
