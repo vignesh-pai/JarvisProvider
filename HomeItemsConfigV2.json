@@ -32,7 +32,7 @@
       "required": false,
       "canPaginate": true,
       "posterType": "normal",
-      "query": "/discover/movie?&with_keywords=210024|222243"
+      "query": "discover/movie?&with_keywords=210024|222243"
     },
     {
       "name": "Past Year Movies",
