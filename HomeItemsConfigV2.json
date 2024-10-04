@@ -19,14 +19,6 @@
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US"
     },
     {
-      "name": "Anime",
-      "type": "all",
-      "required": true,
-      "canPaginate": true,
-      "posterType": "normal",
-      "query": "discover/tv?include_adult=false&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&vote_count.gte=300&with_genres=16&with_original_language=ja"
-    },
-    {
       "name": "Modern Movie Classics",
       "type": "movie",
       "required": true,
@@ -35,12 +27,12 @@
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=vote_average.desc&vote_count.gte=300&watch_region=US"
     },
     {
-      "name": "On the Air Anime",
+      "name": "Anime Movies",
       "type": "tv",
       "required": false,
       "canPaginate": true,
       "posterType": "normal",
-      "query": "discover/tv?with_keywords=210024|222243&sort_by=popularity.desc&air_date.lte=${getDate().nextWeek}&air_date.gte=${getDate().today}"
+      "query": "/discover/movie?&with_keywords=210024|222243"
     },
     {
       "name": "The Golden 2010s",
@@ -387,6 +379,14 @@
       "canPaginate": false,
       "posterType": "numbered",
       "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&without_genres=10763"
+    },
+    {
+      "name": "Anime",
+      "type": "all",
+      "required": true,
+      "canPaginate": true,
+      "posterType": "normal",
+      "query": "discover/tv?include_adult=false&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&vote_count.gte=300&with_genres=16&with_original_language=ja"
     },
     {
       "name": "Modern TV Show Classics",
