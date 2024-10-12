@@ -117,7 +117,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.fans",
+      "url": "https://vegamovies.foo",
       "enabled": true
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.lol",
+      "url": "https://luxmovies.shop",
       "enabled": true
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "server": "VStream",
-      "url": "https://vadapav.mov",
+      "url": "https://dl1.vadapav.mov",
       "enabled": true
     },
     {
