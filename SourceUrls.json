@@ -117,7 +117,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.foo",
+      "url": "https://vegamovies.si",
       "enabled": true
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.shop",
+      "url": "https://luxmovies.live",
       "enabled": true
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.day",
+      "url": "https://moviesmod.bid",
       "enabled": true
     },
     {
@@ -183,6 +183,11 @@
     {
       "server": "Anitaku",
       "url": "https://anitaku.pe",
+      "enabled": true
+    },
+    {
+      "server": "Starkflix",
+      "url": "https://scloud.starkflix.cloud",
       "enabled": true
     }
   ]
