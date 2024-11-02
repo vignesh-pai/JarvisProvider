@@ -103,7 +103,7 @@
     {
       "server": "Nepu",
       "url": "https://nepu.to",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "AnimePahe",
