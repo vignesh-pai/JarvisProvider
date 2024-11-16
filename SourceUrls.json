@@ -167,7 +167,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.beer",
+      "url": "https://bollyflix.ninja",
       "enabled": true
     },
     {
@@ -188,7 +188,7 @@
     {
       "server": "Starkflix",
       "url": "https://scloud.starkflix.cloud",
-      "enabled": true
+      "enabled": false
     }
   ]
 }
