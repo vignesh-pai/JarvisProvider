@@ -197,12 +197,12 @@
     },
     {
       "server": "Nyaa",
-      "url": "https://bollyflix.meme",
+      "url": "https://nyaa.land",
       "enabled": true
     },
     {
       "server": "ExtraMovies",
-      "url": "https://bollyflix.meme",
+      "url": "https://extramovies.poker",
       "enabled": true
     }
   ]
