@@ -117,7 +117,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.si",
+      "url": "https://vegamovies.ps",
       "enabled": true
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.bid",
+      "url": "https://moviesmod.rip",
       "enabled": true
     },
     {
@@ -189,6 +189,21 @@
       "server": "Starkflix",
       "url": "https://scloud.starkflix.cloud",
       "enabled": false
+    },
+    {
+      "server": "BollyflixVIP",
+      "url": "https://bollyflix.meme",
+      "enabled": true
+    },
+    {
+      "server": "Nyaa",
+      "url": "https://bollyflix.meme",
+      "enabled": true
+    },
+    {
+      "server": "ExtraMovies",
+      "url": "https://bollyflix.meme",
+      "enabled": true
     }
   ]
 }
