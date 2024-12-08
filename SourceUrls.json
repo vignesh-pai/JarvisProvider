@@ -204,6 +204,16 @@
       "server": "ExtraMovies",
       "url": "https://extramovies.poker",
       "enabled": true
+    },
+    {
+      "server": "EmbedSu",
+      "url": "https://embed.su",
+      "enabled": true
+    },
+    {
+      "server": "Flicky",
+      "url": "https://www.flicky.host",
+      "enabled": true
     }
   ]
 }
