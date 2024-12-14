@@ -112,7 +112,7 @@
     },
     {
       "server": "Showflix",
-      "url": "https://showflix.lol",
+      "url": "https://showflix.site",
       "enabled": true
     },
     {
@@ -213,6 +213,11 @@
     {
       "server": "Flicky",
       "url": "https://www.flicky.host",
+      "enabled": true
+    },
+    {
+      "server": "TomAPI",
+      "url": "https://tom.autoembed.cc",
       "enabled": true
     }
   ]
