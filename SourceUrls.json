@@ -219,6 +219,11 @@
       "server": "TomAPI",
       "url": "https://tom.autoembed.cc",
       "enabled": true
+    },
+    {
+      "server": "gogoanime",
+      "url": "gogoanime",
+      "enabled": true
     }
   ]
 }
