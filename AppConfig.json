@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 24,
-  "build_name": "v3.3",
-  "update_info": "Features:\n- Added themes to App \n- Added Server Selection \n- Added new sources - \n1. DreamFilm \n2.MoviesMod \n3. MoviesDrive \n4.Anitaku \n5.AnimePage \n6.Nepu \n7.MultiMovies \n8.Bollyflix",
-  "update_url": "https://bit.ly/jarvisV3_3"
+  "build": 25,
+  "build_name": "v3.4",
+  "update_info": "Features:\n- Fixed providers \n- Added new sources - \n1. TomApi \n2.ExtraMovies \n3. gogoanime",
+  "update_url": "https://bit.ly/JarvisV3_4"
 }

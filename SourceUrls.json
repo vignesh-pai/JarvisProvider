@@ -83,7 +83,7 @@
     {
       "server": "Goku",
       "url": "goku",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "AllMovieLand",
