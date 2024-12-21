@@ -71,7 +71,7 @@
       "type": "movie",
       "required": false,
       "canPaginate": true,
-      "posterType": "normal",
+      "posterType": "detailed",
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_genres=12"
     },
     {
@@ -295,7 +295,7 @@
       "type": "movie",
       "required": false,
       "canPaginate": true,
-      "posterType": "normal",
+      "posterType": "detailed",
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_keywords=161184"
     },
     {
@@ -393,7 +393,7 @@
       "type": "all",
       "required": false,
       "canPaginate": true,
-      "posterType": "normal",
+      "posterType": "detailed",
       "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_keywords=210024&with_original_language=ja"
     },
     {
@@ -473,7 +473,7 @@
       "type": "tv",
       "required": false,
       "canPaginate": true,
-      "posterType": "normal",
+      "posterType": "detailed",
       "query": "discover/tv?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_networks=213"
     },
     {
