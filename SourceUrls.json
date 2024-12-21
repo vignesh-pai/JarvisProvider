@@ -66,11 +66,6 @@
       "enabled": true
     },
     {
-      "server": "Rstream",
-      "url": "https://remotestream.cc",
-      "enabled": false
-    },
-    {
       "server": "Flixon",
       "url": "https://flixon.lol",
       "enabled": false
@@ -117,7 +112,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.ps",
+      "url": "https://vegamovies.st",
       "enabled": true
     },
     {
@@ -137,7 +132,7 @@
     },
     {
       "server": "Zoechip",
-      "url": "https://zoechip.org",
+      "url": "https://www1.zoechip.to",
       "enabled": true
     },
     {
@@ -152,12 +147,12 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.rip",
+      "url": "https://moviesmod.bot",
       "enabled": true
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.world",
+      "url": "https://moviesdrive.cloud",
       "enabled": true
     },
     {
@@ -177,18 +172,13 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.bond",
+      "url": "https://multimovies.lat",
       "enabled": true
     },
     {
       "server": "Anitaku",
       "url": "https://anitaku.pe",
       "enabled": true
-    },
-    {
-      "server": "Starkflix",
-      "url": "https://scloud.starkflix.cloud",
-      "enabled": false
     },
     {
       "server": "BollyflixVIP",
@@ -202,7 +192,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.poker",
+      "url": "https://extramovies.soy",
       "enabled": true
     },
     {
