@@ -211,6 +211,11 @@
       "enabled": true
     },
     {
+      "server": "HinAPI",
+      "url": "https://hin.autoembed.cc",
+      "enabled": true
+    },
+    {
       "server": "gogoanime",
       "url": "gogoanime",
       "enabled": true
