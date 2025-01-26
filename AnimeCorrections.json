@@ -33,6 +33,23 @@
             "totalEpisodes": 12
         }
       ]
+    },
+    {
+      "name": "Solo Levelling",
+      "type": "anime",
+      "tmdbId": 127532,
+      "seasons": [
+        {
+            "seasonNumber" : 1,
+            "airDate" : "2024-01-02",
+            "totalEpisodes": 12
+        },
+        {
+            "seasonNumber" : 2,
+            "airDate" : "2025-01-07",
+            "totalEpisodes": 12
+        }
+      ]
     }
   ]
 }
