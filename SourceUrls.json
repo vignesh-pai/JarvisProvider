@@ -112,7 +112,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.ms",
+      "url": "https://vegamovies.rs",
       "enabled": true
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.cash",
+      "url": "https://moviesmod.how",
       "enabled": true
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.diy",
+      "url": "https://bollyflix.today",
       "enabled": true
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.lat",
+      "url": "https://multimovies.today",
       "enabled": true
     },
     {
@@ -182,7 +182,7 @@
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.spa",
+      "url": "https://bollyflix.africa",
       "enabled": true
     },
     {
