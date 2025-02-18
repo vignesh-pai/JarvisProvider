@@ -219,6 +219,16 @@
       "server": "gogoanime",
       "url": "gogoanime",
       "enabled": true
+    },
+    {
+      "server": "Anizone",
+      "url": "https://anizone.to",
+      "enabled": true
+    },
+    {
+      "server": "RiveStreamAPI",
+      "url": "https://rivestream.live",
+      "enabled": true
     }
   ]
 }
