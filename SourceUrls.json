@@ -12,7 +12,7 @@
     },
     {
       "server": "Filmxy",
-      "url": "https://www.filmxy.vip",
+      "url": "https://www.filmxy.online",
       "enabled": false
     },
     {
@@ -122,7 +122,7 @@
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.cam",
+      "url": "https://luxmovies.fun",
       "enabled": true
     },
     {
@@ -226,8 +226,18 @@
       "enabled": true
     },
     {
-      "server": "RiveStreamAPI",
-      "url": "https://rivestream.live",
+      "server": "RiveStream",
+      "url": "https://rivestream.org",
+      "enabled": true
+    },
+    {
+      "server": "AnimeKai",
+      "url": "https://animekai.to",
+      "enabled": true
+    },
+    {
+      "server": "VidSrcVip",
+      "url": "https://vidsrc.vip",
       "enabled": true
     }
   ]
