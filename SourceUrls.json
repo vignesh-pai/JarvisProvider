@@ -46,8 +46,8 @@
       "enabled": true
     },
     {
-      "server": "Noverse",
-      "url": "https://www.thenollyverse.com",
+      "server": "UHDMovies",
+      "url": "https://uhdmovies.fyi",
       "enabled": false
     },
     {
@@ -162,17 +162,17 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.today",
+      "url": "https://bollyflix.phd",
       "enabled": true
     },
     {
-      "server": "Movies4u",
-      "url": "https://movies4u.gb.net",
+      "server": "TopMovies",
+      "url": "https://topmovies.nexus",
       "enabled": true
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.today",
+      "url": "https://multimovies.world",
       "enabled": true
     },
     {
@@ -181,8 +181,13 @@
       "enabled": true
     },
     {
+      "server": "TokyoInsider",
+      "url": "https://www.tokyoinsider.com",
+      "enabled": true
+    },
+    {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.africa",
+      "url": "https://bollyflix.phd",
       "enabled": true
     },
     {
