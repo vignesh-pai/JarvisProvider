@@ -48,7 +48,7 @@
     {
       "server": "UHDMovies",
       "url": "https://uhdmovies.fyi",
-      "enabled": false
+      "enabled": true
     },
     {
       "server": "MultiEmbed",
@@ -71,9 +71,9 @@
       "enabled": false
     },
     {
-      "server": "Smashy",
-      "url": "https://embed.smashystream.com",
-      "enabled": false
+      "server": "Player4uApi",
+      "url": "https://player4u.xyz",
+      "enabled": true
     },
     {
       "server": "Goku",
