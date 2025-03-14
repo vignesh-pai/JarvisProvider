@@ -122,7 +122,7 @@
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.cam",
+      "url": "https://luxmovies.fun",
       "enabled": true
     },
     {
@@ -243,6 +243,16 @@
     {
       "server": "VidSrcVip",
       "url": "https://vidsrc.vip",
+      "enabled": true
+    },
+    {
+      "server": "AnimeOwl",
+      "url": "https://animeowl.me",
+      "enabled": true
+    },
+    {
+      "server": "RogMovies",
+      "url": "https://rogmovies.icu",
       "enabled": true
     }
   ]
