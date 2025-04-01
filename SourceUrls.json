@@ -47,7 +47,7 @@
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.fyi",
+      "url": "https://uhdmovies.wales",
       "enabled": true
     },
     {
@@ -147,12 +147,12 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.how",
+      "url": "https://moviesmod.gift",
       "enabled": true
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.club",
+      "url": "https://moviesdrive.guru",
       "enabled": true
     },
     {
@@ -167,7 +167,7 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://topmovies.nexus",
+      "url": "https://topmovies.wales",
       "enabled": true
     },
     {
