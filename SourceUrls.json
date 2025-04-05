@@ -251,6 +251,11 @@
       "enabled": true
     },
     {
+      "server": "FlixHQ",
+      "url": "movies/flixhq",
+      "enabled": true
+    },
+    {
       "server": "Anizone",
       "url": "https://anizone.to",
       "enabled": true
