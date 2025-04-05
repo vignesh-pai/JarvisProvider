@@ -6,8 +6,8 @@
       "enabled": true
     },
     {
-      "server": "Vidsrc",
-      "url": "https://vidsrc.me",
+      "server": "Dreamfilm",
+      "url": "https://dreamfilmsw.info",
       "enabled": true
     },
     {
@@ -16,38 +16,13 @@
       "enabled": false
     },
     {
-      "server": "Aniwatch",
-      "url": "https://aniwatchtv.to",
-      "enabled": true
-    },
-    {
-      "server": "NowTv",
-      "url": "https://myfilestorage.xyz",
-      "enabled": false
-    },
-    {
       "server": "HiAnime",
-      "url": "https://hianime.to",
+      "url": "https://hianime.bz",
       "enabled": true
     },
     {
-      "server": "AniWave",
-      "url": "https://aniwavetv.to",
-      "enabled": true
-    },
-    {
-      "server": "Crunchyroll",
-      "url": "https://beta-api.crunchyroll.com",
-      "enabled": false
-    },
-    {
-      "server": "Kisskh",
-      "url": "https://kisskh.co",
-      "enabled": true
-    },
-    {
-      "server": "UHDMovies",
-      "url": "https://uhdmovies.wales",
+      "server": "AnimeKai",
+      "url": "https://animekai.to",
       "enabled": true
     },
     {
@@ -56,118 +31,28 @@
       "enabled": true
     },
     {
+      "server": "Kisskh",
+      "url": "https://kisskh.co",
+      "enabled": true
+    },
+    {
       "server": "Ling",
       "url": "https://ling-online.net",
       "enabled": true
     },
     {
-      "server": "Vidsrcto",
-      "url": "https://vidsrc.to",
-      "enabled": true
-    },
-    {
       "server": "Flixon",
-      "url": "https://flixon.lol",
+      "url": "https://flixon.ovh",
       "enabled": false
     },
     {
-      "server": "Player4uApi",
-      "url": "https://player4u.xyz",
-      "enabled": true
-    },
-    {
-      "server": "Goku",
-      "url": "goku",
+      "server": "NowTv",
+      "url": "https://myfilestorage.xyz",
       "enabled": false
-    },
-    {
-      "server": "AllMovieLand",
-      "url": "https://allmovieland.fun",
-      "enabled": true
-    },
-    {
-      "server": "MoFlix",
-      "url": "https://moflix-stream.xyz",
-      "enabled": false
-    },
-    {
-      "server": "Animetosho",
-      "url": "https://animetosho.org",
-      "enabled": true
-    },
-    {
-      "server": "Nepu",
-      "url": "https://nepu.to",
-      "enabled": false
-    },
-    {
-      "server": "AnimePahe",
-      "url": "https://animepahe.ru",
-      "enabled": true
-    },
-    {
-      "server": "Showflix",
-      "url": "https://showflix.site",
-      "enabled": true
-    },
-    {
-      "server": "Vega",
-      "url": "https://vegamovies.rs",
-      "enabled": true
-    },
-    {
-      "server": "AoneRoom",
-      "url": "https://api3.aoneroom.com",
-      "enabled": true
-    },
-    {
-      "server": "DotMovies",
-      "url": "https://luxmovies.fun",
-      "enabled": true
-    },
-    {
-      "server": "Dahmer",
-      "url": "https://a.datadiff.us.kg",
-      "enabled": true
-    },
-    {
-      "server": "Zoechip",
-      "url": "https://www1.zoechip.to",
-      "enabled": true
     },
     {
       "server": "EMovies",
       "url": "https://emovies.si",
-      "enabled": true
-    },
-    {
-      "server": "VStream",
-      "url": "https://dl2.vadapav.mov",
-      "enabled": true
-    },
-    {
-      "server": "MoviesMod",
-      "url": "https://moviesmod.gift",
-      "enabled": true
-    },
-    {
-      "server": "MoviesDrive",
-      "url": "https://moviesdrive.guru",
-      "enabled": true
-    },
-    {
-      "server": "Dreamfilm",
-      "url": "https://dreamfilmsw.info",
-      "enabled": true
-    },
-    {
-      "server": "Bollyflix",
-      "url": "https://bollyflix.phd",
-      "enabled": true
-    },
-    {
-      "server": "TopMovies",
-      "url": "https://topmovies.wales",
       "enabled": true
     },
     {
@@ -176,18 +61,98 @@
       "enabled": true
     },
     {
-      "server": "Anitaku",
-      "url": "https://anitaku.pe",
+      "server": "AllMovieLand",
+      "url": "https://allmovieland.fun",
       "enabled": true
     },
     {
-      "server": "TokyoInsider",
-      "url": "https://www.tokyoinsider.com",
+      "server": "Vidsrcto",
+      "url": "https://vidsrc.cc",
       "enabled": true
     },
     {
-      "server": "BollyflixVIP",
+      "server": "Vidsrc",
+      "url": "https://vidsrc.su",
+      "enabled": true
+    },
+    {
+      "server": "Animetosho",
+      "url": "https://animetosho.org",
+      "enabled": true
+    },
+    {
+      "server": "Showflix",
+      "url": "https://showflix.site",
+      "enabled": true
+    },
+    {
+      "server": "AoneRoom",
+      "url": "https://api3.aoneroom.com",
+      "enabled": true
+    },
+    {
+      "server": "MoFlix",
+      "url": "https://moflix-stream.xyz",
+      "enabled": false
+    },
+    {
+      "server": "Zoechip",
+      "url": "https://www1.zoechip.to",
+      "enabled": true
+    },
+    {
+      "server": "Nepu",
+      "url": "https://nepu.to",
+      "enabled": false
+    },
+    {
+      "server": "UHDMovies",
+      "url": "https://uhdmovies.wales",
+      "enabled": true
+    },
+    {
+      "server": "TopMovies",
+      "url": "https://topmovies.wales",
+      "enabled": true
+    },
+    {
+      "server": "MoviesMod",
+      "url": "https://moviesmod.gift",
+      "enabled": true
+    },
+    {
+      "server": "Vega",
+      "url": "https://vegamovies.band",
+      "enabled": true
+    },
+    {
+      "server": "DotMovies",
+      "url": "https://luxmovies.fun",
+      "enabled": true
+    },
+    {
+      "server": "RogMovies",
+      "url": "https://rogmovies.icu",
+      "enabled": true
+    },
+    {
+      "server": "Dahmer",
+      "url": "https://a.datadiff.us.kg",
+      "enabled": true
+    },
+    {
+      "server": "MoviesDrive",
+      "url": "https://moviesdrive.guru",
+      "enabled": true
+    },
+    {
+      "server": "Bollyflix",
       "url": "https://bollyflix.phd",
+      "enabled": true
+    },
+    {
+      "server": "AnimePahe",
+      "url": "https://animepahe.ru",
       "enabled": true
     },
     {
@@ -221,23 +186,8 @@
       "enabled": true
     },
     {
-      "server": "gogoanime",
-      "url": "gogoanime",
-      "enabled": true
-    },
-    {
-      "server": "Anizone",
-      "url": "https://anizone.to",
-      "enabled": true
-    },
-    {
       "server": "RiveStream",
       "url": "https://rivestream.org",
-      "enabled": true
-    },
-    {
-      "server": "AnimeKai",
-      "url": "https://animekai.to",
       "enabled": true
     },
     {
@@ -251,8 +201,58 @@
       "enabled": true
     },
     {
-      "server": "RogMovies",
-      "url": "https://rogmovies.icu",
+      "server": "Player4uApi",
+      "url": "https://player4u.xyz",
+      "enabled": true
+    },
+    {
+      "server": "Aniwatch",
+      "url": "https://aniwatchtv.to",
+      "enabled": true
+    },
+    {
+      "server": "AniWave",
+      "url": "https://aniwavetv.to",
+      "enabled": true
+    },
+    {
+      "server": "Crunchyroll",
+      "url": "https://beta-api.crunchyroll.com",
+      "enabled": false
+    },
+    {
+      "server": "Goku",
+      "url": "goku",
+      "enabled": false
+    },
+    {
+      "server": "VStream",
+      "url": "https://dl2.vadapav.mov",
+      "enabled": true
+    },
+    {
+      "server": "Anitaku",
+      "url": "https://anitaku.pe",
+      "enabled": true
+    },
+    {
+      "server": "TokyoInsider",
+      "url": "https://www.tokyoinsider.com",
+      "enabled": true
+    },
+    {
+      "server": "BollyflixVIP",
+      "url": "https://bollyflix.phd",
+      "enabled": true
+    },
+    {
+      "server": "gogoanime",
+      "url": "gogoanime",
+      "enabled": true
+    },
+    {
+      "server": "Anizone",
+      "url": "https://anizone.to",
       "enabled": true
     }
   ]
