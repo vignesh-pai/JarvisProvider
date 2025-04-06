@@ -196,6 +196,11 @@
       "enabled": true
     },
     {
+      "server": "Primewire",
+      "url": "https://www.primewire.tf",
+      "enabled": true
+    },
+    {
       "server": "AnimeOwl",
       "url": "https://animeowl.me",
       "enabled": true
