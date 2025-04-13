@@ -208,7 +208,7 @@
     {
       "server": "Player4uApi",
       "url": "https://player4u.xyz",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "Aniwatch",
