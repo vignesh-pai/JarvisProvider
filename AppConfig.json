@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 26,
-  "build_name": "v3.5",
-  "update_info": "Features:\n- Added download feature for mobile app\n- Fixed providers \n- Added new sources - \n1. RiveStream \n2.VidSrc \n3. UDH movies \n4.AnimeKai \n5.TokyoInsider \n6.Player4u \n7.HinEmbed \n8.Bollyflix",
-  "update_url": "https://bit.ly/JarvisV3_5"
+  "build": 27,
+  "build_name": "v3.6",
+  "update_info": "Features:\n- Fixed providers \n- Added new sources - \n1. Flixhq \n2. Zoro \n3. Vega \n4.Primewire",
+  "update_url": "https://bit.ly/JarvisV3_6"
 }
