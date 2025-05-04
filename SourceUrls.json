@@ -107,17 +107,17 @@
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.wales",
+      "url": "https://uhdmovies.tips",
       "enabled": true
     },
     {
       "server": "TopMovies",
-      "url": "https://topmovies.loan",
+      "url": "https://topmovies.tips",
       "enabled": true
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.gift",
+      "url": "https://moviesmod.email",
       "enabled": true
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.xyz",
+      "url": "https://moviesdrives.com",
       "enabled": true
     },
     {
@@ -209,6 +209,11 @@
       "server": "Player4uApi",
       "url": "https://player4u.xyz",
       "enabled": false
+    },
+    {
+      "server": "Vidzee",
+      "url": "https://vidzee.wtf",
+      "enabled": true
     },
     {
       "server": "Aniwatch",
