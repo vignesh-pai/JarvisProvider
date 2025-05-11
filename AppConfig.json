@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 27,
-  "build_name": "v3.6",
-  "update_info": "Features:\n- Fixed providers \n- Added new sources - \n1. Flixhq \n2. Zoro \n3. Vega \n4.Primewire",
-  "update_url": "https://bit.ly/JarvisV3_6"
+  "build": 28,
+  "build_name": "v3.7",
+  "update_info": "Features:\n-Download options added\n Fixed providers \n- Fixed sources - \n1. Vega \n2. DotMovies \n3. Rog movies \n4.Bollyflix",
+  "update_url": "https://bit.ly/JarvisV3_7"
 }
