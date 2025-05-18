@@ -263,7 +263,8 @@
     {
       "server": "FlixHQ",
       "url": "movies/flixhq",
-      "enabled": true
+      "enabled": true,
+      "type": "all"
     },
     {
       "server": "Anizone",
