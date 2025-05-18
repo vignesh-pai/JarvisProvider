@@ -1,6 +1,114 @@
 {
   "sources": [
     {
+      "server": "Zoro",
+      "url": "anime/zoro",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
+      "server": "TokyoInsider",
+      "url": "https://www.tokyoinsider.com",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
+      "server": "TomAPI",
+      "url": "https://tom.autoembed.cc",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "FlixHQ",
+      "url": "movies/flixhq",
+      "enabled": true,
+      "type": "all"
+    },
+    {
+      "server": "Player4uApi",
+      "url": "https://player4u.xyz",
+      "enabled": false,
+      "type": "all"
+    },
+    {
+      "server": "AllMovieLand",
+      "url": "https://allmovieland.fun",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Vega",
+      "url": "https://vglist.nl/?re=vegamovies",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "DotMovies",
+      "url": "https://vglist.nl/?re=luxmovies",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "RogMovies",
+      "url": "https://vglist.nl/?re=rogmovies",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "MoviesMod",
+      "url": "https://modflix.xyz/?type=hollywood",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "MoviesDrive",
+      "url": "https://moviesdrives.com",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Flicky",
+      "url": "https://www.flicky.host",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "RiveStream",
+      "url": "https://rivestream.org",
+      "enabled": true,
+      "type": "all"
+    },
+    {
+      "server": "ExtraMovies",
+      "url": "https://extramovies.repair",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "UHDMovies",
+      "url": "https://modflix.xyz/?type=uhdmovies",
+      "enabled": false,
+      "type": "all"
+    },
+    {
+      "server": "BollyflixVIP",
+      "url": "https://bollyflix.kiwi",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Vidzee",
+      "url": "https://vidzee.wtf",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Bollyflix",
+      "url": "https://bollyflix.kiwi",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
       "server": "TwoEmbed",
       "url": "https://www.2embed.cc",
       "enabled": true,
@@ -73,12 +181,6 @@
       "type": "all"
     },
     {
-      "server": "AllMovieLand",
-      "url": "https://allmovieland.fun",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
       "server": "Vidsrcto",
       "url": "https://vidsrc.cc",
       "enabled": true,
@@ -127,38 +229,8 @@
       "type": "movie"
     },
     {
-      "server": "UHDMovies",
-      "url": "https://modflix.xyz/?type=uhdmovies",
-      "enabled": false,
-      "type": "all"
-    },
-    {
       "server": "TopMovies",
       "url": "https://modflix.xyz/?type=bollywood",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "MoviesMod",
-      "url": "https://modflix.xyz/?type=hollywood",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "Vega",
-      "url": "https://vglist.nl/?re=vegamovies",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "DotMovies",
-      "url": "https://vglist.nl/?re=luxmovies",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "RogMovies",
-      "url": "https://vglist.nl/?re=rogmovies",
       "enabled": true,
       "type": "movie"
     },
@@ -167,18 +239,6 @@
       "url": "https://a.111477.xyz",
       "enabled": true,
       "type": "all"
-    },
-    {
-      "server": "MoviesDrive",
-      "url": "https://moviesdrives.com",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "Bollyflix",
-      "url": "https://bollyflix.kiwi",
-      "enabled": true,
-      "type": "movie"
     },
     {
       "server": "AnimePahe",
@@ -193,26 +253,8 @@
       "type": "anime"
     },
     {
-      "server": "ExtraMovies",
-      "url": "https://extramovies.repair",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
       "server": "EmbedSu",
       "url": "https://embed.su",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "Flicky",
-      "url": "https://www.flicky.host",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "TomAPI",
-      "url": "https://tom.autoembed.cc",
       "enabled": true,
       "type": "movie"
     },
@@ -221,12 +263,6 @@
       "url": "https://hin.autoembed.cc",
       "enabled": true,
       "type": "movie"
-    },
-    {
-      "server": "RiveStream",
-      "url": "https://rivestream.org",
-      "enabled": true,
-      "type": "all"
     },
     {
       "server": "VidSrcVip",
@@ -245,18 +281,6 @@
       "url": "https://animeowl.me",
       "enabled": true,
       "type": "anime"
-    },
-    {
-      "server": "Player4uApi",
-      "url": "https://player4u.xyz",
-      "enabled": false,
-      "type": "all"
-    },
-    {
-      "server": "Vidzee",
-      "url": "https://vidzee.wtf",
-      "enabled": true,
-      "type": "movie"
     },
     {
       "server": "Aniwatch",
@@ -293,30 +317,6 @@
       "url": "https://anitaku.pe",
       "enabled": true,
       "type": "anime"
-    },
-    {
-      "server": "TokyoInsider",
-      "url": "https://www.tokyoinsider.com",
-      "enabled": true,
-      "type": "anime"
-    },
-    {
-      "server": "BollyflixVIP",
-      "url": "https://bollyflix.kiwi",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "Zoro",
-      "url": "anime/zoro",
-      "enabled": true,
-      "type": "anime"
-    },
-    {
-      "server": "FlixHQ",
-      "url": "movies/flixhq",
-      "enabled": true,
-      "type": "all"
     },
     {
       "server": "Anizone",
