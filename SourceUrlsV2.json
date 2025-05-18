@@ -108,7 +108,7 @@
     {
       "server": "UHDMovies",
       "url": "https://modflix.xyz/?type=uhdmovies",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "TopMovies",
@@ -208,7 +208,7 @@
     {
       "server": "Player4uApi",
       "url": "https://player4u.xyz",
-      "enabled": true
+      "enabled": false
     },
     {
       "server": "Vidzee",
