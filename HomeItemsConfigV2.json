@@ -51,6 +51,22 @@
       "query": "discover/movie?include_adult=false&include_video=false&language=en-US&sort_by=popularity.desc&vote_count.gte=300&watch_region=US&with_keywords=9715%7C180547%7C312528"
     },
     {
+      "name": "Bollywood Hits",
+      "type": "movie",
+      "required": false,
+      "canPaginate": true,
+      "posterType": "normal",
+      "query": "discover/movie?include_adult=false&&include_video=false&language=en-US&region=IN&sort_by=popularity.desc&vote_count.gte=300&with_original_language=hi"
+    },
+    {
+      "name": "Latest Bollywood Releases",
+      "type": "movie",
+      "required": false,
+      "canPaginate": true,
+      "posterType": "normal",
+      "query": "discover/movie?include_adult=false&include_video=false&language=en-US&region=IN&vote_count.gte=5&with_original_language=hi&sort_by=primary_release_date.desc&primary_release_date.lte=2025-06-01"
+    },
+    {
       "name": "Top Korean Movies",
       "type": "movie",
       "required": false,

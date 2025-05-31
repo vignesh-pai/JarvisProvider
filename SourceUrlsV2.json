@@ -80,7 +80,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.repair",
+      "url": "https://extramovies.direct",
       "enabled": true,
       "type": "movie"
     },
@@ -92,7 +92,7 @@
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.kiwi",
+      "url": "https://bollyflix.yoga",
       "enabled": true,
       "type": "movie"
     },
@@ -104,7 +104,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.kiwi",
+      "url": "https://bollyflix.yoga",
       "enabled": true,
       "type": "movie"
     },
