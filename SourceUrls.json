@@ -7,6 +7,24 @@
       "type": "anime"
     },
     {
+      "server": "Anizone",
+      "url": "https://anizone.to",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
+      "server": "AnimeOwl",
+      "url": "https://animeowl.me",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
+      "server": "AnimePahe",
+      "url": "https://animepahe.ru",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
       "server": "TokyoInsider",
       "url": "https://www.tokyoinsider.com",
       "enabled": true,
@@ -63,6 +81,18 @@
     {
       "server": "MoviesDrive",
       "url": "https://moviesdrive.design",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "XPrime",
+      "url": "https://backend.xprime.tv",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Elevenmovies",
+      "url": "https://111movies.com",
       "enabled": true,
       "type": "movie"
     },
@@ -133,6 +163,12 @@
       "type": "anime"
     },
     {
+      "server": "AniXL",
+      "url": "AniXL",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
       "server": "AnimeKai",
       "url": "https://animekai.to",
       "enabled": true,
@@ -179,6 +215,12 @@
       "url": "https://multimovies.email",
       "enabled": true,
       "type": "all"
+    },
+    {
+      "server": "VidSrcVip",
+      "url": "https://vidsrc.vip",
+      "enabled": true,
+      "type": "movie"
     },
     {
       "server": "Vidsrcto",
@@ -241,10 +283,10 @@
       "type": "all"
     },
     {
-      "server": "AnimePahe",
-      "url": "https://animepahe.ru",
+      "server": "EmbedSu",
+      "url": "https://embed.su",
       "enabled": true,
-      "type": "anime"
+      "type": "movie"
     },
     {
       "server": "Nyaa",
@@ -253,20 +295,8 @@
       "type": "anime"
     },
     {
-      "server": "EmbedSu",
-      "url": "https://embed.su",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
       "server": "HinAPI",
       "url": "https://hin.autoembed.cc",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "VidSrcVip",
-      "url": "https://vidsrc.vip",
       "enabled": true,
       "type": "movie"
     },
@@ -275,12 +305,6 @@
       "url": "https://www.primewire.tf",
       "enabled": true,
       "type": "movie"
-    },
-    {
-      "server": "AnimeOwl",
-      "url": "https://animeowl.me",
-      "enabled": true,
-      "type": "anime"
     },
     {
       "server": "Aniwatch",
@@ -315,12 +339,6 @@
     {
       "server": "Anitaku",
       "url": "https://anitaku.pe",
-      "enabled": true,
-      "type": "anime"
-    },
-    {
-      "server": "Anizone",
-      "url": "https://anizone.to",
       "enabled": true,
       "type": "anime"
     }
