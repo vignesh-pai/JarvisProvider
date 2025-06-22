@@ -37,6 +37,12 @@
       "type": "movie"
     },
     {
+      "server": "VStream",
+      "url": "https://vadapav.mov",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
       "server": "FlixHQ",
       "url": "movies/flixhq",
       "enabled": true,
@@ -329,12 +335,6 @@
       "url": "goku",
       "enabled": false,
       "type": "all"
-    },
-    {
-      "server": "VStream",
-      "url": "https://dl2.vadapav.mov",
-      "enabled": true,
-      "type": "movie"
     },
     {
       "server": "Anitaku",
