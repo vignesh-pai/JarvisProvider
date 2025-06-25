@@ -1,8 +1,9 @@
 {
   "maintenance": false,
-  "build": 1748028641,
-  "build_name": "v3.8",
-  "update_info": "Enhancements:\n-Providers dynamic organisation \n-Crash fixes \n-Fixed sources - \n-Tv navigation fix",
-  "update_url": "https://bit.ly/JarvisV3_8"
+  "build": 1750875934,
+  "build_name": "v3.9",
+  "update_info": "Enhancements:\n-Providers dynamic organisation \n-Crash fixes \n-Fixed sources -\n-Added Source \n1.ElevenApi \n2.AniXL \n3.XPrime",
+  "update_url": "https://bit.ly/JarvisV3_9"
 }
+
 
