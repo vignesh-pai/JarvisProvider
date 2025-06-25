@@ -37,18 +37,6 @@
       "type": "movie"
     },
     {
-      "server": "VStream",
-      "url": "https://vadapav.mov",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "FlixHQ",
-      "url": "movies/flixhq",
-      "enabled": true,
-      "type": "all"
-    },
-    {
       "server": "Player4uApi",
       "url": "https://player4u.xyz",
       "enabled": true,
@@ -57,6 +45,24 @@
     {
       "server": "AllMovieLand",
       "url": "https://allmovieland.fun",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "VStream",
+      "url": "https://vadapav.mov",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "MoviesMod",
+      "url": "https://moviesmod.chat",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "MoviesDrive",
+      "url": "https://moviesdrive.design",
       "enabled": true,
       "type": "movie"
     },
@@ -79,18 +85,6 @@
       "type": "movie"
     },
     {
-      "server": "MoviesMod",
-      "url": "https://moviesmod.chat",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "MoviesDrive",
-      "url": "https://moviesdrive.design",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
       "server": "XPrime",
       "url": "https://backend.xprime.tv",
       "enabled": true,
@@ -101,6 +95,12 @@
       "url": "https://111movies.com",
       "enabled": true,
       "type": "movie"
+    },
+    {
+      "server": "FlixHQ",
+      "url": "movies/flixhq",
+      "enabled": true,
+      "type": "all"
     },
     {
       "server": "Flicky",
@@ -117,6 +117,12 @@
     {
       "server": "ExtraMovies",
       "url": "https://extramovies.yoga",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "TopMovies",
+      "url": "https://topmovies.rodeo",
       "enabled": true,
       "type": "movie"
     },
@@ -274,12 +280,6 @@
       "server": "Nepu",
       "url": "https://nepu.to",
       "enabled": false,
-      "type": "movie"
-    },
-    {
-      "server": "TopMovies",
-      "url": "https://topmovies.rodeo",
-      "enabled": true,
       "type": "movie"
     },
     {
