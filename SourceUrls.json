@@ -7,6 +7,12 @@
       "type": "anime"
     },
     {
+      "server": "HiAnime",
+      "url": "https://hianime.to",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
       "server": "Anizone",
       "url": "https://anizone.to",
       "enabled": true,
@@ -167,12 +173,6 @@
       "url": "https://www.filmxy.online",
       "enabled": false,
       "type": "movie"
-    },
-    {
-      "server": "HiAnime",
-      "url": "https://hianime.bz",
-      "enabled": true,
-      "type": "anime"
     },
     {
       "server": "AniXL",
