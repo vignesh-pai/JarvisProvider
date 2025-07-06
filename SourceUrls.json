@@ -74,19 +74,19 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.yoga",
+      "url": "https://vegamovies.frl",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.tattoo",
+      "url": "https://luxmovies.food",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.mom",
+      "url": "https://rogmovies.sbs",
       "enabled": true,
       "type": "movie"
     },
@@ -140,7 +140,7 @@
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.tw",
+      "url": "https://bollyflix.dance",
       "enabled": true,
       "type": "movie"
     },
@@ -152,7 +152,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.tw",
+      "url": "https://bollyflix.dance",
       "enabled": true,
       "type": "movie"
     },
