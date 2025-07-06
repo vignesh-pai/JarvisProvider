@@ -1,9 +1,7 @@
 {
   "maintenance": false,
-  "build": 1750875934,
-  "build_name": "v3.9",
-  "update_info": "Enhancements:\n-Providers dynamic organisation \n-Crash fixes \n-Fixed sources -\n-Added Source \n1.ElevenApi \n2.AniXL \n3.XPrime",
-  "update_url": "https://bit.ly/JarvisV3_9"
+  "build": 1751834412,
+  "build_name": "v4.0",
+  "update_info": "Enhancements:\n-Providers asynchronous fetching \n-Crash fixes \n-Fixed sources \n-Youtube trailer for TV added",
+  "update_url": "https://bit.ly/JarvisV4_0"
 }
-
-
