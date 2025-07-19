@@ -68,7 +68,7 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.design",
+      "url": "https://moviesdrive.click",
       "enabled": true,
       "type": "movie"
     },
@@ -122,25 +122,25 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.yoga",
+      "url": "https://extramovies.taxi",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "TopMovies",
-      "url": "https://topmovies.rodeo",
+      "url": "https://topmovies.cat",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.email",
+      "url": "https://uhdmovies.cat",
       "enabled": false,
       "type": "all"
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.dance",
+      "url": "https://bollyflix.army",
       "enabled": true,
       "type": "movie"
     },
@@ -152,7 +152,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.dance",
+      "url": "https://bollyflix.army",
       "enabled": true,
       "type": "movie"
     },
@@ -224,7 +224,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.email",
+      "url": "https://multimovies.agency",
       "enabled": true,
       "type": "all"
     },
