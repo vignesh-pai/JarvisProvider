@@ -73,6 +73,12 @@
       "type": "movie"
     },
     {
+      "server": "HDhub4u",
+      "url": "https://hdhub4u.family",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
       "server": "Vega",
       "url": "https://vegamovies.frl",
       "enabled": true,
