@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1751834412,
+  "build": 1753038971,
   "build_name": "v4.0",
-  "update_info": "Enhancements:\n-Providers asynchronous fetching \n-Crash fixes \n-Fixed sources \n-Youtube trailer for TV added",
-  "update_url": "https://bit.ly/JarvisV4_0"
+  "update_info": "Enhancements:\n-Providers updated \n-Crash fixes \n-Theme fixes \n- Hubcloud added",
+  "update_url": "https://bit.ly/JarvisV4_1"
 }
