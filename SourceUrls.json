@@ -75,7 +75,7 @@
     {
       "server": "HDhub4u",
       "url": "https://hdhub4u.family",
-      "enabled": false,
+      "enabled": true,
       "type": "movie"
     },
     {
@@ -141,7 +141,7 @@
     {
       "server": "UHDMovies",
       "url": "https://uhdmovies.cat",
-      "enabled": false,
+      "enabled": true,
       "type": "all"
     },
     {
