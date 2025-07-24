@@ -62,37 +62,37 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.chat",
+      "url": "https://moviesmod.tube",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.click",
+      "url": "https://moviesdrives.eu",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.family",
+      "url": "https://hdhub4u.gifts",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.frl",
+      "url": "https://vegamovies.moi",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.food",
+      "url": "https://luxmovies.bid",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.sbs",
+      "url": "https://rogmovies.ink",
       "enabled": true,
       "type": "movie"
     },
