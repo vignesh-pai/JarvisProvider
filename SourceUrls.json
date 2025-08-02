@@ -26,7 +26,7 @@
     },
     {
       "server": "AnimePahe",
-      "url": "https://animepahe.ru",
+      "url": "https://animep ahe.ru",
       "enabled": true,
       "type": "anime"
     },
@@ -50,7 +50,7 @@
     },
     {
       "server": "AllMovieLand",
-      "url": "https://allmovieland.fun",
+      "url": "https://allmovieland.ac",
       "enabled": true,
       "type": "movie"
     },
@@ -62,37 +62,37 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.chat",
+      "url": "https://moviesmod.tube",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.click",
+      "url": "https://moviesdrive.channel",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.family",
+      "url": "https://hdhub4u.build",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.frl",
+      "url": "https://vegamovies.moi",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.food",
+      "url": "https://luxmovies.mba",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.sbs",
+      "url": "https://rogmovies.life",
       "enabled": true,
       "type": "movie"
     },
@@ -128,7 +128,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.taxi",
+      "url": "https://extramovies.design",
       "enabled": true,
       "type": "movie"
     },
@@ -145,8 +145,14 @@
       "type": "all"
     },
     {
+      "server": "HdMovie2",
+      "url": "https://hdmovie2.supplies",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.army",
+      "url": "https://bollyflix.fish",
       "enabled": true,
       "type": "movie"
     },
@@ -158,7 +164,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.army",
+      "url": "https://bollyflix.fish",
       "enabled": true,
       "type": "movie"
     },
@@ -230,7 +236,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.agency",
+      "url": "https://multimovies.asia",
       "enabled": true,
       "type": "all"
     },
