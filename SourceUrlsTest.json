@@ -1,18 +1,6 @@
 {
   "sources": [
     {
-      "server": "Zoro",
-      "url": "anime/zoro",
-      "enabled": true,
-      "type": "anime"
-    },
-    {
-      "server": "HiAnime",
-      "url": "https://hianime.to",
-      "enabled": true,
-      "type": "anime"
-    },
-    {
       "server": "Anizone",
       "url": "https://anizone.to",
       "enabled": true,
@@ -37,8 +25,38 @@
       "type": "anime"
     },
     {
+      "server": "Zoro",
+      "url": "anime/zoro",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
+      "server": "HiAnime",
+      "url": "https://hianime.to",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
       "server": "TomAPI",
       "url": "https://tom.autoembed.cc",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "TwoEmbed",
+      "url": "https://www.2embed.cc",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "AllMovieLand",
+      "url": "https://allmovieland.ac",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "XPrime",
+      "url": "https://backend.xprime.tv",
       "enabled": true,
       "type": "movie"
     },
@@ -47,12 +65,6 @@
       "url": "https://player4u.xyz",
       "enabled": true,
       "type": "all"
-    },
-    {
-      "server": "AllMovieLand",
-      "url": "https://allmovieland.ac",
-      "enabled": true,
-      "type": "movie"
     },
     {
       "server": "VStream",
@@ -97,12 +109,6 @@
       "type": "movie"
     },
     {
-      "server": "XPrime",
-      "url": "https://backend.xprime.tv",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
       "server": "Elevenmovies",
       "url": "https://111movies.com",
       "enabled": true,
@@ -128,7 +134,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.design",
+      "url": "https://extramovies.mba",
       "enabled": true,
       "type": "movie"
     },
@@ -146,7 +152,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.supplies",
+      "url": "https://hdmovie2.partners",
       "enabled": true,
       "type": "movie"
     },
@@ -165,12 +171,6 @@
     {
       "server": "Bollyflix",
       "url": "https://bollyflix.fish",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "TwoEmbed",
-      "url": "https://www.2embed.cc",
       "enabled": true,
       "type": "movie"
     },
@@ -236,7 +236,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.asia",
+      "url": "https://multimovies.coupons",
       "enabled": true,
       "type": "all"
     },
