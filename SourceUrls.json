@@ -74,7 +74,7 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.channel",
+      "url": "https://moviesdrive.cc",
       "enabled": true,
       "type": "movie"
     },
@@ -86,7 +86,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.moi",
+      "url": "https://vegamovies.gmbh",
       "enabled": true,
       "type": "movie"
     },
@@ -98,7 +98,7 @@
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.life",
+      "url": "https://rogmovies.space",
       "enabled": true,
       "type": "movie"
     },
