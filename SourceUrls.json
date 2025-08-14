@@ -55,12 +55,6 @@
       "type": "movie"
     },
     {
-      "server": "XPrime",
-      "url": "https://backend.xprime.tv",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
       "server": "Player4uApi",
       "url": "https://player4u.xyz",
       "enabled": true,
@@ -159,6 +153,12 @@
     {
       "server": "BollyflixVIP",
       "url": "https://bollyflix.fish",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "XPrime",
+      "url": "https://backend.xprime.tv",
       "enabled": true,
       "type": "movie"
     },
