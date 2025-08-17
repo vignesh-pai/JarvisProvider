@@ -37,12 +37,6 @@
       "type": "anime"
     },
     {
-      "server": "TomAPI",
-      "url": "https://tom.autoembed.cc",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
       "server": "TwoEmbed",
       "url": "https://www.2embed.cc",
       "enabled": true,
@@ -51,12 +45,6 @@
     {
       "server": "AllMovieLand",
       "url": "https://allmovieland.ac",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
-      "server": "XPrime",
-      "url": "https://backend.xprime.tv",
       "enabled": true,
       "type": "movie"
     },
@@ -80,19 +68,19 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.channel",
+      "url": "https://moviesdrive.cc",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.build",
+      "url": "https://hdhub4u.navy",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.moi",
+      "url": "https://vegamovies.gmbh",
       "enabled": true,
       "type": "movie"
     },
@@ -104,7 +92,7 @@
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.life",
+      "url": "https://rogmovies.space",
       "enabled": true,
       "type": "movie"
     },
@@ -119,6 +107,18 @@
       "url": "movies/flixhq",
       "enabled": true,
       "type": "all"
+    },
+    {
+      "server": "Watch32",
+      "url": "https://watch32.sx",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "TomAPI",
+      "url": "https://tom.autoembed.cc",
+      "enabled": true,
+      "type": "movie"
     },
     {
       "server": "Flicky",
@@ -140,13 +140,13 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://topmovies.cat",
+      "url": "https://topmovies.tube",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.cat",
+      "url": "https://uhdmovies.tube",
       "enabled": true,
       "type": "all"
     },
@@ -158,7 +158,13 @@
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.fish",
+      "url": "https://bollyflix.faith",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "XPrime",
+      "url": "https://backend.xprime.tv",
       "enabled": true,
       "type": "movie"
     },
@@ -170,7 +176,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.fish",
+      "url": "https://bollyflix.faith",
       "enabled": true,
       "type": "movie"
     },
