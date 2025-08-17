@@ -265,6 +265,12 @@
       "type": "movie"
     },
     {
+      "server": "VidsrcXYZ",
+      "url": "https://vidsrc.xyz",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
       "server": "Animetosho",
       "url": "https://animetosho.org",
       "enabled": true,
