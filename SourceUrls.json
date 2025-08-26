@@ -68,7 +68,7 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.tube",
+      "url": "https://moviesmod.cafe",
       "enabled": true,
       "type": "movie"
     },
@@ -80,7 +80,7 @@
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.build",
+      "url": "https://hdhub4u.menu",
       "enabled": true,
       "type": "movie"
     },
@@ -134,7 +134,7 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://topmovies.cat",
+      "url": "https://topmovies.tube",
       "enabled": true,
       "type": "movie"
     },
@@ -152,7 +152,7 @@
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.fish",
+      "url": "https://bollyflix.faith",
       "enabled": true,
       "type": "movie"
     },
@@ -170,7 +170,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.fish",
+      "url": "https://bollyflix.faith",
       "enabled": true,
       "type": "movie"
     },
