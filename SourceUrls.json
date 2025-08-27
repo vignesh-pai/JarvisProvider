@@ -236,13 +236,19 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.coupons",
+      "url": "https://multimovies.pro",
       "enabled": true,
       "type": "all"
     },
     {
       "server": "VidSrcVip",
       "url": "https://vidsrc.vip",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Watch32",
+      "url": "https://watch32.sx",
       "enabled": true,
       "type": "movie"
     },
@@ -327,7 +333,7 @@
     {
       "server": "Aniwatch",
       "url": "https://aniwatchtv.to",
-      "enabled": true,
+      "enabled": false,
       "type": "anime"
     },
     {
