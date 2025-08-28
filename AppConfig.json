@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1754749743,
-  "build_name": "v4.3",
-  "update_info": "Enhancements:\n-Providers updated \n-Crash fixes \n-Theme fixes",
-  "update_url": "https://bit.ly/JarvisV4_3"
+  "build": 1756324147,
+  "build_name": "v4.4",
+  "update_info": "Enhancements:\n-Providers updated \n- Bug fixes and optimisation \n- HiAnime fixed",
+  "update_url": "https://bit.ly/JarvisV4_4"
 }
