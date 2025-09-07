@@ -74,7 +74,7 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.cc",
+      "url": "https://moviesdrive.cv",
       "enabled": true,
       "type": "movie"
     },
@@ -92,7 +92,7 @@
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.mba",
+      "url": "https://luxmovies.tips",
       "enabled": true,
       "type": "movie"
     },
@@ -128,7 +128,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.mba",
+      "url": "https://extramovies.faith",
       "enabled": true,
       "type": "movie"
     },
@@ -140,7 +140,7 @@
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.cat",
+      "url": "https://uhdmovies.tube",
       "enabled": true,
       "type": "all"
     },
@@ -236,7 +236,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.pro",
+      "url": "https://multimovies.lol",
       "enabled": true,
       "type": "all"
     },
@@ -315,7 +315,7 @@
     {
       "server": "Nyaa",
       "url": "https://nyaa.land",
-      "enabled": true,
+      "enabled": false,
       "type": "anime"
     },
     {
