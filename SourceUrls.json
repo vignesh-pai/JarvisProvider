@@ -74,13 +74,31 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.cv",
+      "url": "https://moviesdrive.rodeo",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.menu",
+      "url": "https://hdhub4u.florist",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Vidrock",
+      "url": "https://vidrock.net",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Soapy",
+      "url": "https://soapy.to",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Vidlink",
+      "url": "https://vidlink.pro",
       "enabled": true,
       "type": "movie"
     },
@@ -98,7 +116,7 @@
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.space",
+      "url": "https://rogmovies.org",
       "enabled": true,
       "type": "movie"
     },
@@ -115,16 +133,10 @@
       "type": "all"
     },
     {
-      "server": "Flicky",
-      "url": "https://www.flicky.host",
+      "server": "Rido",
+      "url": "https://ridomovies.tv",
       "enabled": true,
       "type": "movie"
-    },
-    {
-      "server": "RiveStream",
-      "url": "https://rivestream.org",
-      "enabled": false,
-      "type": "all"
     },
     {
       "server": "ExtraMovies",
@@ -134,7 +146,7 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://topmovies.tube",
+      "url": "https://topmovies.rip",
       "enabled": true,
       "type": "movie"
     },
@@ -145,20 +157,26 @@
       "type": "all"
     },
     {
-      "server": "HdMovie2",
-      "url": "https://hdmovie2.partners",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.faith",
+      "url": "https://bollyflix.ist",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "XPrime",
       "url": "https://backend.xprime.tv",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "RiveStream",
+      "url": "https://rivestream.org",
+      "enabled": true,
+      "type": "all"
+    },
+    {
+      "server": "HdMovie2",
+      "url": "https://hdmovie2.exposed",
       "enabled": true,
       "type": "movie"
     },
@@ -170,7 +188,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.faith",
+      "url": "https://bollyflix.ist",
       "enabled": true,
       "type": "movie"
     },
@@ -236,7 +254,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.lol",
+      "url": "https://multimovies.city",
       "enabled": true,
       "type": "all"
     },
@@ -277,8 +295,8 @@
       "type": "movie"
     },
     {
-      "server": "AoneRoom",
-      "url": "https://api3.aoneroom.com",
+      "server": "4khdhub",
+      "url": "https://4khdhub.fans",
       "enabled": true,
       "type": "movie"
     },
@@ -297,7 +315,7 @@
     {
       "server": "Nepu",
       "url": "https://nepu.to",
-      "enabled": false,
+      "enabled": true,
       "type": "movie"
     },
     {
@@ -313,9 +331,9 @@
       "type": "movie"
     },
     {
-      "server": "Nyaa",
-      "url": "https://nyaa.land",
-      "enabled": false,
+      "server": "Morph",
+      "url": "JkxDYnUzaVlDN2xuMjRLN1A=",
+      "enabled": true,
       "type": "anime"
     },
     {
