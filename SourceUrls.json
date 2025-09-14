@@ -37,14 +37,14 @@
       "type": "anime"
     },
     {
-      "server": "TomAPI",
-      "url": "https://tom.autoembed.cc",
+      "server": "TwoEmbed",
+      "url": "https://www.2embed.cc",
       "enabled": true,
       "type": "movie"
     },
     {
-      "server": "TwoEmbed",
-      "url": "https://www.2embed.cc",
+      "server": "Vidsrcto",
+      "url": "https://vidsrc.cc",
       "enabled": true,
       "type": "movie"
     },
@@ -271,12 +271,6 @@
       "type": "movie"
     },
     {
-      "server": "Vidsrcto",
-      "url": "https://vidsrc.cc",
-      "enabled": true,
-      "type": "movie"
-    },
-    {
       "server": "Vidsrc",
       "url": "https://vidsrc.su",
       "enabled": true,
@@ -355,8 +349,14 @@
       "type": "anime"
     },
     {
+      "server": "TomAPI",
+      "url": "https://tom.autoembed.cc",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
       "server": "AniWave",
-      "url": "https://aniwavetv.to",
+      "url": "https://aniwave.com.pl",
       "enabled": true,
       "type": "anime"
     },

@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1756324147,
-  "build_name": "v4.4",
-  "update_info": "Enhancements:\n-Providers updated \n- Bug fixes and optimisation \n- HiAnime fixed",
-  "update_url": "https://bit.ly/JarvisV4_4"
+  "build": 1757847170,
+  "build_name": "v4.5",
+  "update_info": "Enhancements:\n- New providers added updated -> Rido, Vidrock, 4khdhub, Morph, Soapy \n- Bug fixes and optimisation \n- Vidsrc fixed \n - Fixed outdated providers",
+  "update_url": "https://bit.ly/JarvisV4_5"
 }
