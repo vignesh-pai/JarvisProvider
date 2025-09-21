@@ -27,7 +27,7 @@
     {
       "server": "Zoro",
       "url": "anime/zoro",
-      "enabled": true,
+      "enabled": false,
       "type": "anime"
     },
     {
@@ -68,19 +68,19 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.cafe",
+      "url": "https://moviesmod.plus",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.rodeo",
+      "url": "https://moviesdrive.mom",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.florist",
+      "url": "https://hdhub4u.tokyo",
       "enabled": true,
       "type": "movie"
     },
@@ -104,7 +104,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.gmbh",
+      "url": "https://vegamovies.menu",
       "enabled": true,
       "type": "movie"
     },
@@ -140,7 +140,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.faith",
+      "url": "https://extramovies.rodeo",
       "enabled": true,
       "type": "movie"
     },
@@ -152,7 +152,7 @@
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.tube",
+      "url": "https://uhdmovies.rip",
       "enabled": true,
       "type": "all"
     },
@@ -176,7 +176,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.exposed",
+      "url": "https://hdmovie2.directory",
       "enabled": true,
       "type": "movie"
     },
