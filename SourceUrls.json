@@ -80,7 +80,7 @@
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.tokyo",
+      "url": "https://hdhub4u.cologne",
       "enabled": true,
       "type": "movie"
     },
@@ -110,13 +110,13 @@
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.tips",
+      "url": "https://luxmovies.tax",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.org",
+      "url": "https://rogmovies.store",
       "enabled": true,
       "type": "movie"
     },
@@ -158,7 +158,7 @@
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.ist",
+      "url": "https://bollyflix.vc",
       "enabled": true,
       "type": "movie"
     },
@@ -176,7 +176,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.directory",
+      "url": "https://hdmovie2.cooking",
       "enabled": true,
       "type": "movie"
     },
@@ -188,7 +188,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.ist",
+      "url": "https://bollyflix.vc",
       "enabled": true,
       "type": "movie"
     },
@@ -254,7 +254,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.city",
+      "url": "https://multimovies.mobi",
       "enabled": true,
       "type": "all"
     },
