@@ -103,6 +103,24 @@
       "type": "movie"
     },
     {
+      "server": "CinemaOs",
+      "url": "https://cinemaos.live",
+      "enabled": true,
+      "type": "all"
+    },
+    {
+      "server": "Mp4Hydra",
+      "url": "https://mp4hydra.org",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Vidnest",
+      "url": "https://backend.vidnest.fun",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
       "server": "Vega",
       "url": "https://vegamovies.menu",
       "enabled": true,
