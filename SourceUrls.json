@@ -218,7 +218,7 @@
     },
     {
       "server": "MultiEmbed",
-      "url": "https://multiembed.network",
+      "url": "https://multiembed.mov",
       "enabled": true,
       "type": "movie"
     },
@@ -254,7 +254,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.city",
+      "url": "https://multimovies.mobi",
       "enabled": true,
       "type": "all"
     },
