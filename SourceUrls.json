@@ -57,7 +57,7 @@
     {
       "server": "Player4uApi",
       "url": "https://player4u.xyz",
-      "enabled": true,
+      "enabled": false,
       "type": "all"
     },
     {
@@ -128,7 +128,7 @@
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.tax",
+      "url": "https://luxmovies.gold",
       "enabled": true,
       "type": "movie"
     },
@@ -272,7 +272,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.network",
+      "url": "https://multimovies.sale",
       "enabled": true,
       "type": "all"
     },
@@ -351,12 +351,12 @@
     {
       "server": "HinAPI",
       "url": "https://hin.autoembed.cc",
-      "enabled": true,
+      "enabled": false,
       "type": "movie"
     },
     {
       "server": "Primewire",
-      "url": "https://www.primewire.tf",
+      "url": "https://primesrc.me",
       "enabled": true,
       "type": "movie"
     },
@@ -375,7 +375,7 @@
     {
       "server": "AniWave",
       "url": "https://aniwave.com.pl",
-      "enabled": true,
+      "enabled": false,
       "type": "anime"
     },
     {
@@ -393,7 +393,7 @@
     {
       "server": "Anitaku",
       "url": "https://anitaku.pe",
-      "enabled": true,
+      "enabled": false,
       "type": "anime"
     }
   ]
