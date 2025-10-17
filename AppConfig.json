@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1759512241,
-  "build_name": "v4.6",
-  "update_info": "Enhancements:\n- New providers added -> CinemaOs, Vidnest, Mp4Hydra, Morph, Soapy \n- Bug fixes on player screen \n- Vidsrc fixed \n - Fixed outdated providers",
-  "update_url": "https://bit.ly/JarvisV4_6"
+  "build": 1760713870,
+  "build_name": "v4.7",
+  "update_info": "Enhancements:\n- New providers added -> Vstream \n- Bug fixes on player \n - Fixed outdated providers",
+  "update_url": "https://bit.ly/JarvisV4_7"
 }
