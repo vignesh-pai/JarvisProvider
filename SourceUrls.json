@@ -74,13 +74,13 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.mom",
+      "url": "https://moviesdrive.lat",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.cologne",
+      "url": "https://hdhub4u.pictures",
       "enabled": true,
       "type": "movie"
     },
@@ -164,7 +164,7 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://topmovies.pet",
+      "url": "https://moviesleech.org",
       "enabled": true,
       "type": "movie"
     },
@@ -194,13 +194,13 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.webcam",
+      "url": "https://hdmovie2.dk",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "Vidzee",
-      "url": "https://vidzee.wtf",
+      "url": "https://player.vidzee.wtf",
       "enabled": true,
       "type": "movie"
     },
