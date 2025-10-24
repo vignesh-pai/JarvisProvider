@@ -104,7 +104,7 @@
     },
     {
       "server": "CinemaOs",
-      "url": "https://cinemaos.live",
+      "url": "https://cinemaos.tech",
       "enabled": true,
       "type": "all"
     },
@@ -164,7 +164,7 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://moviesleech.org",
+      "url": "https://moviesleech.net",
       "enabled": true,
       "type": "movie"
     },
@@ -194,7 +194,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.dk",
+      "url": "https://hdmovie2.qpon",
       "enabled": true,
       "type": "movie"
     },
@@ -272,7 +272,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.sale",
+      "url": "https://multimovies.cheap",
       "enabled": true,
       "type": "all"
     },
