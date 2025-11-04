@@ -121,6 +121,18 @@
       "type": "movie"
     },
     {
+      "server": "Vidfast",
+      "url": "https://vidfast.pro",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Xhdmovies",
+      "url": "https://xdmovies.site",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
       "server": "Vega",
       "url": "https://vegamovies.gripe",
       "enabled": true,
