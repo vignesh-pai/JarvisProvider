@@ -1,7 +1,7 @@
 {
   "maintenance": false,
   "build": 1762459033,
-  "build_name": "v4.9",
+  "build_name": "v4.8",
   "update_info": "Enhancements:\n- New providers added -> XDMovies, Vidfast \n- Bug fixes on player \n - Fixed outdated providers",
-  "update_url": "https://bit.ly/JarvisV4_7"
+  "update_url": "https://bit.ly/JarvisV4_8"
 }
