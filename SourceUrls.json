@@ -68,19 +68,19 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.plus",
+      "url": "https://moviesmod.kids",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.lat",
+      "url": "https://moviesdrive.pics",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.pictures",
+      "url": "https://hdhub4u.guide",
       "enabled": true,
       "type": "movie"
     },
@@ -146,7 +146,7 @@
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.online",
+      "url": "https://rogmovies.xyz",
       "enabled": true,
       "type": "movie"
     },
@@ -182,7 +182,7 @@
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.rip",
+      "url": "https://uhdmovies.stream",
       "enabled": true,
       "type": "all"
     },
@@ -218,7 +218,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.esq",
+      "url": "https://bollyflix.vet",
       "enabled": true,
       "type": "movie"
     },
@@ -284,7 +284,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.cheap",
+      "url": "https://multimovies.center",
       "enabled": true,
       "type": "all"
     },
