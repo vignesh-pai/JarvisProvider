@@ -176,7 +176,7 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://moviesleech.net",
+      "url": "https://moviesleech.eu",
       "enabled": true,
       "type": "movie"
     },
@@ -188,7 +188,7 @@
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.vet",
+      "url": "https://bollyflix.miami",
       "enabled": true,
       "type": "movie"
     },
@@ -206,7 +206,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.fr",
+      "url": "https://hdmovie2.photography",
       "enabled": true,
       "type": "movie"
     },
@@ -218,7 +218,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.vet",
+      "url": "https://bollyflix.miami",
       "enabled": true,
       "type": "movie"
     },
@@ -291,6 +291,12 @@
     {
       "server": "VidSrcVip",
       "url": "https://vidsrc.vip",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "VidsrcXYZ",
+      "url": "https://vidsrc-embed.su",
       "enabled": true,
       "type": "movie"
     },
