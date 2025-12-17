@@ -134,7 +134,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.gripe",
+      "url": "https://vegamovies.cricket",
       "enabled": true,
       "type": "movie"
     },
@@ -170,7 +170,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.money",
+      "url": "https://extramovies.miami",
       "enabled": true,
       "type": "movie"
     },
@@ -206,7 +206,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.photography",
+      "url": "https://hdmovie2.download",
       "enabled": true,
       "type": "movie"
     },
@@ -284,7 +284,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.center",
+      "url": "https://multimovies.golf",
       "enabled": true,
       "type": "all"
     },

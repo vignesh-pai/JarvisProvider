@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1764475055,
-  "build_name": "v5.0",
-  "update_info": "Enhancements:\n- Bug fixes and improvements. \n- Crash fixes \n- Added Video Quality tracks \n - Fixed outdated providers",
-  "update_url": "https://bit.ly/JarvisV5_0"
+  "build": 1765998202,
+  "build_name": "v5.1",
+  "update_info": "Enhancements:\n- Bug fixes and improvements. \n- Crash fixes \n- Fixed outdated providers",
+  "update_url": "https://bit.ly/JarvisV5_1"
 }
