@@ -74,13 +74,13 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.pics",
+      "url": "https://moviesdrive.forum",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
-      "url": "https://hdhub4u.rehab",
+      "url": "https://hdhub4u.fo",
       "enabled": true,
       "type": "movie"
     },
@@ -134,7 +134,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.cricket",
+      "url": "https://m.vegamovies.cricket",
       "enabled": true,
       "type": "movie"
     },
@@ -146,7 +146,7 @@
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.xyz",
+      "url": "https://rogmovies.world",
       "enabled": true,
       "type": "movie"
     },
@@ -176,13 +176,13 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://moviesleech.eu",
+      "url": "https://moviesleech.top",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.stream",
+      "url": "https://uhdmovies.earth",
       "enabled": true,
       "type": "all"
     },
@@ -206,7 +206,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.download",
+      "url": "https://hdmovie2.immobilien",
       "enabled": true,
       "type": "movie"
     },
@@ -326,7 +326,7 @@
     },
     {
       "server": "4khdhub",
-      "url": "https://4khdhub.fans",
+      "url": "https://4khdhub.dad",
       "enabled": true,
       "type": "movie"
     },
