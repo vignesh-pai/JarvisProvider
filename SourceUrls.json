@@ -13,14 +13,14 @@
       "type": "anime"
     },
     {
-      "server": "AnimePahe",
-      "url": "https://animepahe.si",
+      "server": "TokyoInsider",
+      "url": "https://www.tokyoinsider.com",
       "enabled": true,
       "type": "anime"
     },
     {
-      "server": "TokyoInsider",
-      "url": "https://www.tokyoinsider.com",
+      "server": "HiAnime",
+      "url": "https://hianime.to",
       "enabled": true,
       "type": "anime"
     },
@@ -31,8 +31,8 @@
       "type": "anime"
     },
     {
-      "server": "HiAnime",
-      "url": "https://hianime.to",
+      "server": "AnimePahe",
+      "url": "https://animepahe.si",
       "enabled": true,
       "type": "anime"
     },
@@ -99,6 +99,18 @@
     {
       "server": "Vidlink",
       "url": "https://vidlink.pro",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "HexaSu",
+      "url": "https://themoviedb.hexa.su",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "EmbedMaster",
+      "url": "https://embedmaster.link",
       "enabled": true,
       "type": "movie"
     },
