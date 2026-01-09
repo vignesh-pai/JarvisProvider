@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1765998202,
-  "build_name": "v5.1",
-  "update_info": "Enhancements:\n- Bug fixes and improvements. \n- Crash fixes \n- Fixed outdated providers",
-  "update_url": "https://bit.ly/JarvisV5_1"
+  "build": 1767905226,
+  "build_name": "v5.2",
+  "update_info": "Enhancements:\n- Bug fixes and improvements. \n- Crash fixes \n- Fixed outdated providers \n- Added Embed master server",
+  "update_url": "https://bit.ly/JarvisV5_2"
 }
