@@ -7,12 +7,6 @@
       "type": "anime"
     },
     {
-      "server": "AnimeOwl",
-      "url": "https://animeowl.me",
-      "enabled": true,
-      "type": "anime"
-    },
-    {
       "server": "TokyoInsider",
       "url": "https://www.tokyoinsider.com",
       "enabled": true,
@@ -21,6 +15,12 @@
     {
       "server": "HiAnime",
       "url": "https://hianime.to",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
+      "server": "AnimeOwl",
+      "url": "https://animeowl.me",
       "enabled": true,
       "type": "anime"
     },
@@ -59,12 +59,6 @@
       "url": "https://player4u.xyz",
       "enabled": true,
       "type": "all"
-    },
-    {
-      "server": "VStream",
-      "url": "https://vadapav.mov",
-      "enabled": true,
-      "type": "movie"
     },
     {
       "server": "MoviesMod",
@@ -141,6 +135,12 @@
     {
       "server": "Xdmovies",
       "url": "https://xdmovies.site",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "VStream",
+      "url": "https://vadapav.mov",
       "enabled": true,
       "type": "movie"
     },
