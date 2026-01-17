@@ -14,6 +14,11 @@
             "seasonNumber" : 2,
             "airDate" : "2023-07-06",
             "totalEpisodes": 23
+        },
+        {
+            "seasonNumber" : 3,
+            "airDate" : "2026-01-08",
+            "totalEpisodes": 26
         }
       ]
     },
