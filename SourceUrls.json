@@ -99,7 +99,7 @@
     {
       "server": "HexaSu",
       "url": "https://themoviedb.hexa.su",
-      "enabled": false,
+      "enabled": true,
       "type": "movie"
     },
     {
