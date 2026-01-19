@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1767905226,
-  "build_name": "v5.2",
-  "update_info": "Enhancements:\n- Bug fixes and improvements. \n- Crash fixes \n- Fixed outdated providers \n- Added Embed master server",
-  "update_url": "https://bit.ly/JarvisV5_2"
+  "build": 1768770330,
+  "build_name": "v5.3",
+  "update_info": "Enhancements:\n- Fixed Episode progress. \n- Fixed Hdmovie2 source error \n- Fixed HexaSu \n- Fixed Embed master server",
+  "update_url": "https://bit.ly/JarvisV5_3"
 }
