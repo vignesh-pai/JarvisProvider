@@ -50,7 +50,7 @@
     },
     {
       "server": "AllMovieLand",
-      "url": "https://allmovieland.ac",
+      "url": "https://allmovieland.io",
       "enabled": true,
       "type": "movie"
     },
@@ -62,7 +62,7 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.kids",
+      "url": "https://moviesmod.build",
       "enabled": true,
       "type": "movie"
     },
@@ -74,7 +74,7 @@
     },
     {
       "server": "HDhub4u",
-      "url": "https://new1.hdhub4u.fo",
+      "url": "https://new2.hdhub4u.fo",
       "enabled": true,
       "type": "movie"
     },
@@ -188,7 +188,7 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://moviesleech.top",
+      "url": "https://moviesleech.zip",
       "enabled": true,
       "type": "movie"
     },
