@@ -62,13 +62,13 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.build",
+      "url": "https://moviesmod.town",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "MoviesDrive",
-      "url": "https://moviesdrive.forum",
+      "url": "https://new1.moviesdrive.surf",
       "enabled": true,
       "type": "movie"
     },
@@ -146,7 +146,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.gt",
+      "url": "https://vegamovies.gratis",
       "enabled": true,
       "type": "movie"
     },
@@ -200,13 +200,19 @@
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.do",
+      "url": "https://bollyflix.sarl",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "XPrime",
       "url": "https://backend.xprime.tv",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Hindmoviez",
+      "url": "https://hindmoviez.cafe",
       "enabled": true,
       "type": "movie"
     },
@@ -230,7 +236,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.do",
+      "url": "https://bollyflix.sarl",
       "enabled": true,
       "type": "movie"
     },
@@ -296,7 +302,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.golf",
+      "url": "https://multimovies.gripe",
       "enabled": true,
       "type": "all"
     },
