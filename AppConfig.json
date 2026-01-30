@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1768770330,
-  "build_name": "v5.3",
-  "update_info": "Enhancements:\n- Fixed Episode progress. \n- Fixed Hdmovie2 source error \n- Fixed HexaSu \n- Fixed Embed master server",
-  "update_url": "https://bit.ly/JarvisV5_3"
+  "build": 1769801029,
+  "build_name": "v5.4",
+  "update_info": "Enhancements:\n- Fixed MoviesMod. \n- Fixed Subtitle issue \n- Added hindmoviez",
+  "update_url": "https://bit.ly/JarvisV5_4"
 }
