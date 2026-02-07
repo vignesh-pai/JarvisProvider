@@ -74,7 +74,7 @@
     },
     {
       "server": "HDhub4u",
-      "url": "https://new2.hdhub4u.fo",
+      "url": "https://new3.hdhub4u.fo",
       "enabled": true,
       "type": "movie"
     },
@@ -188,13 +188,13 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://moviesleech.zip",
+      "url": "https://moviesleech.app",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.earth",
+      "url": "https://uhdmovies.loan",
       "enabled": true,
       "type": "all"
     },
@@ -224,7 +224,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.kiwi",
+      "url": "https://hdmovie2.productions",
       "enabled": true,
       "type": "movie"
     },
