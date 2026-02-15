@@ -224,7 +224,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.productions",
+      "url": "https://hdmovie2.associates",
       "enabled": true,
       "type": "movie"
     },
@@ -302,7 +302,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.gripe",
+      "url": "https://multimovies.sarl",
       "enabled": true,
       "type": "all"
     },
