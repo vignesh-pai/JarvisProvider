@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1769801029,
-  "build_name": "v5.4",
-  "update_info": "Enhancements:\n- Fixed MoviesMod. \n- Fixed Subtitle issue \n- Added hindmoviez",
-  "update_url": "https://bit.ly/JarvisV5_4"
+  "build": 1771187365,
+  "build_name": "v5.5",
+  "update_info": "Enhancements:\n- Fixed Vidsrc. \n- Added Cast information along with his works",
+  "update_url": "https://bit.ly/JarvisV5_5"
 }
