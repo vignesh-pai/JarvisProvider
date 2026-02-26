@@ -146,19 +146,19 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.gratis",
+      "url": "https://vegamovies.cologne",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "DotMovies",
-      "url": "https://luxmovies.cash",
+      "url": "https://luxmovies1.shop",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.world",
+      "url": "https://rogmovies.pics",
       "enabled": true,
       "type": "movie"
     },
@@ -225,6 +225,12 @@
     {
       "server": "HdMovie2",
       "url": "https://hdmovie2.associates",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "WebStreamr",
+      "url": "https://webstreamr.hayd.uk",
       "enabled": true,
       "type": "movie"
     },
