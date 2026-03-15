@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1772565559,
-  "build_name": "v5.6",
-  "update_info": "Enhancements:\n- Fixed app crash while playing. \n- Fixed sources",
-  "update_url": "https://bit.ly/JarvisV5_6"
+  "build": 1773599121,
+  "build_name": "v5.7",
+  "update_info": "Enhancements:\n- Fixed OutOfMemory crash on player. \n- Fixed sources",
+  "update_url": "https://bit.ly/JarvisV5_7"
 }
