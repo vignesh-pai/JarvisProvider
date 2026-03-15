@@ -62,7 +62,7 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.town",
+      "url": "https://moviesmod.pink",
       "enabled": true,
       "type": "movie"
     },
@@ -74,7 +74,7 @@
     },
     {
       "server": "HDhub4u",
-      "url": "https://new3.hdhub4u.fo",
+      "url": "https://new4.hdhub4u.fo",
       "enabled": true,
       "type": "movie"
     },
@@ -188,13 +188,13 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://moviesleech.app",
+      "url": "https://moviesleech.link",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.loan",
+      "url": "https://uhdmovies.ink",
       "enabled": true,
       "type": "all"
     },
