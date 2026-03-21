@@ -68,7 +68,7 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://new1.moviesdrive.surf",
+      "url": "https://new1.moviesdrive.my",
       "enabled": true,
       "type": "movie"
     },
@@ -146,7 +146,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.cologne",
+      "url": "https://vegamovies.vodka",
       "enabled": true,
       "type": "movie"
     },
@@ -158,7 +158,13 @@
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.pics",
+      "url": "https://rogmovies.vip",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Filmyfiy",
+      "url": "https://new2.filmyfiy.org",
       "enabled": true,
       "type": "movie"
     },
@@ -182,7 +188,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.miami",
+      "url": "https://rogmovies.pics",
       "enabled": true,
       "type": "movie"
     },
@@ -224,7 +230,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.associates",
+      "url": "https://hdmovie2.restaurant",
       "enabled": true,
       "type": "movie"
     },
@@ -308,7 +314,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.sarl",
+      "url": "https://multimovies.autos",
       "enabled": true,
       "type": "all"
     },
