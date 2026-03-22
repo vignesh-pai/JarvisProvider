@@ -68,13 +68,37 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://new1.moviesdrive.my",
+      "url": "https://new1.moviesdrives.my",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
       "url": "https://new4.hdhub4u.fo",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Mapple",
+      "url": "https://mapple.uk",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "Levidia",
+      "url": "https://www.levidia.ch",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "MoviesApi",
+      "url": "https://moviesapi.club",
+      "enabled": true,
+      "type": "movie"
+    },
+    {
+      "server": "CinemaCity",
+      "url": "https://cinemacity.cc",
       "enabled": true,
       "type": "movie"
     },
