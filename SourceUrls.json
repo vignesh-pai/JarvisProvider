@@ -98,7 +98,7 @@
     },
     {
       "server": "HexaSu",
-      "url": "https://themoviedb.hexa.su",
+      "url": "https://theemoviedb.hexa.su",
       "enabled": true,
       "type": "movie"
     },
@@ -134,7 +134,7 @@
     },
     {
       "server": "Xdmovies",
-      "url": "https://xdmovies.site",
+      "url": "https://new.xdmovies.wtf",
       "enabled": true,
       "type": "movie"
     },
