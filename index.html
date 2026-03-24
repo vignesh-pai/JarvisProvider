@@ -198,6 +198,8 @@
             align-items: center;
             justify-content: space-between;
             font-size: 0.9rem;
+            color: var(--text-primary);
+            text-decoration: none;
         }
 
         .source-item.enabled {
@@ -207,6 +209,15 @@
         .source-item.disabled {
             border-left: 3px solid var(--danger);
             opacity: 0.6;
+        }
+
+        a.source-item {
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        a.source-item:hover {
+            background-color: var(--bg-secondary);
+            border-color: var(--accent);
         }
 
         .source-type {
@@ -478,11 +489,14 @@
                     html += '<div class="source-list">';
                     items.forEach(source => {
                         const statusClass = source.enabled ? 'enabled' : 'disabled';
+                        const isLink = source.url && (source.url.startsWith('https://') || source.url.startsWith('http://'));
+                        const tag = isLink ? 'a' : 'div';
+                        const linkAttrs = isLink ? ` href="${source.url}" target="_blank" rel="noopener noreferrer"` : '';
                         html += `
-                            <div class="source-item ${statusClass}">
+                            <${tag} class="source-item ${statusClass}"${linkAttrs}>
                                 <span>${source.server}</span>
                                 <span class="badge ${source.enabled ? 'badge-success' : 'badge-warning'}">${source.enabled ? 'ON' : 'OFF'}</span>
-                            </div>
+                            </${tag}>
                         `;
                     });
                     html += '</div>';
