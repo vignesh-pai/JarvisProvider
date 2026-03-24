@@ -1,0 +1,154 @@
+name: Toggle Source
+
+on:
+  workflow_dispatch:
+    inputs:
+      server:
+        description: 'Select the server to toggle'
+        required: true
+        type: choice
+        options:
+          - Anizone
+          - TokyoInsider
+          - HiAnime
+          - AnimeOwl
+          - Zoro
+          - AnimePahe
+          - TwoEmbed
+          - Vidsrcto
+          - AllMovieLand
+          - Player4uApi
+          - MoviesMod
+          - MoviesDrive
+          - HDhub4u
+          - Mapple
+          - Levidia
+          - MoviesApi
+          - CinemaCity
+          - Vidrock
+          - Soapy
+          - Vidlink
+          - HexaSu
+          - EmbedMaster
+          - CinemaOs
+          - Mp4Hydra
+          - Vidnest
+          - Vidfast
+          - Xdmovies
+          - VStream
+          - Vega
+          - DotMovies
+          - RogMovies
+          - Filmyfiy
+          - Elevenmovies
+          - FlixHQ
+          - Rido
+          - ExtraMovies
+          - TopMovies
+          - UHDMovies
+          - BollyflixVIP
+          - XPrime
+          - Hindmoviez
+          - RiveStream
+          - HdMovie2
+          - WebStreamr
+          - Vidzee
+          - Bollyflix
+          - Dreamfilm
+          - Filmxy
+          - AniXL
+          - AnimeKai
+          - MultiEmbed
+          - Kisskh
+          - Ling
+          - Flixon
+          - NowTv
+          - EMovies
+          - MultiMovies
+          - VidSrcVip
+          - VidsrcXYZ
+          - Watch32
+          - Vidsrc
+          - Animetosho
+          - Showflix
+          - 4khdhub
+          - MoFlix
+          - Zoechip
+          - Nepu
+          - Dahmer
+          - EmbedSu
+          - Morph
+          - HinAPI
+          - Primewire
+          - Aniwatch
+          - TomAPI
+          - AniWave
+          - Crunchyroll
+          - Goku
+          - Anitaku
+      action:
+        description: 'Action to perform'
+        required: true
+        type: choice
+        options:
+          - enable
+          - disable
+          - toggle
+
+jobs:
+  toggle-source:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Toggle source status
+        run: |
+          SERVER="${{ github.event.inputs.server }}"
+          ACTION="${{ github.event.inputs.action }}"
+          
+          echo "🔧 Processing: $SERVER with action: $ACTION"
+          
+          # Get current status
+          CURRENT_STATUS=$(jq -r --arg server "$SERVER" '.sources[] | select(.server == $server) | .enabled' SourceUrls.json)
+          echo "📊 Current status: $CURRENT_STATUS"
+          
+          # Determine new status
+          if [ "$ACTION" = "toggle" ]; then
+            if [ "$CURRENT_STATUS" = "true" ]; then
+              NEW_STATUS="false"
+            else
+              NEW_STATUS="true"
+            fi
+          elif [ "$ACTION" = "enable" ]; then
+            NEW_STATUS="true"
+          else
+            NEW_STATUS="false"
+          fi
+          
+          echo "🎯 New status: $NEW_STATUS"
+          
+          # Update the JSON file
+          jq --arg server "$SERVER" --argjson enabled $NEW_STATUS \
+            '(.sources[] | select(.server == $server) | .enabled) = $enabled' \
+            SourceUrls.json > tmp.json && mv tmp.json SourceUrls.json
+          
+          # Verify the change
+          UPDATED_STATUS=$(jq -r --arg server "$SERVER" '.sources[] | select(.server == $server) | .enabled' SourceUrls.json)
+          echo "✅ Updated status: $UPDATED_STATUS"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          SERVER="${{ github.event.inputs.server }}"
+          ACTION="${{ github.event.inputs.action }}"
+          
+          git add SourceUrls.json
+          git diff --cached --quiet || git commit -m "🔄 $ACTION $SERVER source"
+          git push
+

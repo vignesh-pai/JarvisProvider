@@ -1,0 +1,116 @@
+name: Update App Config
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_name:
+        description: 'Build name (e.g., v5.7)'
+        required: false
+        type: string
+      build:
+        description: 'Build number'
+        required: false
+        type: string
+      update_info:
+        description: 'Update info/changelog (use \n for new lines)'
+        required: false
+        type: string
+      update_url:
+        description: 'Update URL'
+        required: false
+        type: string
+      maintenance:
+        description: 'Maintenance mode'
+        required: false
+        type: choice
+        options:
+          - no-change
+          - 'true'
+          - 'false'
+        default: 'no-change'
+
+jobs:
+  update-config:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update App Config
+        run: |
+          echo "📱 Updating AppConfig.json..."
+          
+          CHANGES=""
+          
+          # Update build_name if provided
+          if [ -n "${{ github.event.inputs.build_name }}" ]; then
+            jq '.build_name = "${{ github.event.inputs.build_name }}"' AppConfig.json > tmp.json && mv tmp.json AppConfig.json
+            CHANGES="${CHANGES}build_name, "
+            echo "✅ Updated build_name to: ${{ github.event.inputs.build_name }}"
+          fi
+          
+          # Update build if provided
+          if [ -n "${{ github.event.inputs.build }}" ]; then
+            jq '.build = ${{ github.event.inputs.build }}' AppConfig.json > tmp.json && mv tmp.json AppConfig.json
+            CHANGES="${CHANGES}build, "
+            echo "✅ Updated build to: ${{ github.event.inputs.build }}"
+          fi
+          
+          # Update update_info if provided
+          if [ -n "${{ github.event.inputs.update_info }}" ]; then
+            jq --arg info "${{ github.event.inputs.update_info }}" '.update_info = $info' AppConfig.json > tmp.json && mv tmp.json AppConfig.json
+            CHANGES="${CHANGES}update_info, "
+            echo "✅ Updated update_info"
+          fi
+          
+          # Update update_url if provided
+          if [ -n "${{ github.event.inputs.update_url }}" ]; then
+            jq --arg url "${{ github.event.inputs.update_url }}" '.update_url = $url' AppConfig.json > tmp.json && mv tmp.json AppConfig.json
+            CHANGES="${CHANGES}update_url, "
+            echo "✅ Updated update_url to: ${{ github.event.inputs.update_url }}"
+          fi
+          
+          # Update maintenance if not "no-change"
+          if [ "${{ github.event.inputs.maintenance }}" != "no-change" ]; then
+            if [ "${{ github.event.inputs.maintenance }}" = "true" ]; then
+              jq '.maintenance = true' AppConfig.json > tmp.json && mv tmp.json AppConfig.json
+              echo "✅ Maintenance mode: ENABLED"
+            else
+              jq '.maintenance = false' AppConfig.json > tmp.json && mv tmp.json AppConfig.json
+              echo "✅ Maintenance mode: DISABLED"
+            fi
+            CHANGES="${CHANGES}maintenance, "
+          fi
+          
+          # Remove trailing comma and space
+          CHANGES=$(echo "$CHANGES" | sed 's/, $//')
+          
+          echo "CHANGES=$CHANGES" >> $GITHUB_ENV
+          
+          echo ""
+          echo "📄 Updated AppConfig.json:"
+          cat AppConfig.json
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add AppConfig.json
+          
+          if git diff --cached --quiet; then
+            echo "⚠️ No changes to commit"
+          else
+            BUILD_NAME="${{ github.event.inputs.build_name }}"
+            if [ -n "$BUILD_NAME" ]; then
+              git commit -m "🚀 Update AppConfig: $BUILD_NAME" -m "Changed: ${{ env.CHANGES }}"
+            else
+              git commit -m "🔧 Update AppConfig" -m "Changed: ${{ env.CHANGES }}"
+            fi
+            git push
+            echo "✅ Changes pushed successfully!"
+          fi
+
