@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JarvisProvider - Configuration Files</title>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-card: #21262d;
+            --text-primary: #c9d1d9;
+            --text-secondary: #8b949e;
+            --accent: #58a6ff;
+            --accent-hover: #79c0ff;
+            --border: #30363d;
+            --success: #3fb950;
+            --warning: #d29922;
+            --danger: #f85149;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 3rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--accent), #a371f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--accent), #a371f7);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .card-subtitle {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .card-content {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        .stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .stat {
+            background-color: var(--bg-card);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+        }
+
+        .stat-value {
+            color: var(--accent);
+            font-weight: 600;
+            margin-left: 0.25rem;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .badge-success {
+            background-color: rgba(63, 185, 80, 0.2);
+            color: var(--success);
+        }
+
+        .badge-warning {
+            background-color: rgba(210, 153, 34, 0.2);
+            color: var(--warning);
+        }
+
+        .badge-info {
+            background-color: rgba(88, 166, 255, 0.2);
+            color: var(--accent);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            background-color: var(--accent);
+            color: var(--bg-primary);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .source-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .source-item {
+            background-color: var(--bg-card);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.9rem;
+        }
+
+        .source-item.enabled {
+            border-left: 3px solid var(--success);
+        }
+
+        .source-item.disabled {
+            border-left: 3px solid var(--danger);
+            opacity: 0.6;
+        }
+
+        .source-type {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+        }
+
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        .info-table th,
+        .info-table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .info-table th {
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+
+        .app-version {
+            background: linear-gradient(135deg, rgba(88, 166, 255, 0.1), rgba(163, 113, 247, 0.1));
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .version-number {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent), #a371f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .source-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 JarvisProvider</h1>
+            <p>Configuration Hub for Media Streaming Sources</p>
+        </header>
+
+        <!-- App Config Section -->
+        <div id="app-config" class="app-version">
+            <p class="stat-label">Current Version</p>
+            <p class="version-number" id="app-version">Loading...</p>
+            <p id="app-status" style="margin-top: 0.5rem;"></p>
+            <p id="update-info" style="margin-top: 1rem; color: var(--text-secondary);"></p>
+            <a id="download-btn" href="#" class="btn" style="margin-top: 1rem; display: none;">Download Latest</a>
+        </div>
+
+        <!-- Configuration Cards Grid -->
+        <div class="grid">
+            <!-- AppConfig Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">⚙️</div>
+                    <div>
+                        <h3 class="card-title">AppConfig.json</h3>
+                        <p class="card-subtitle">Application Settings</p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Core application configuration including version info, maintenance status, and update details.</p>
+                </div>
+                <table class="info-table" id="app-config-table">
+                    <tr>
+                        <th>Property</th>
+                        <th>Value</th>
+                    </tr>
+                </table>
+                <div style="margin-top: 1rem;">
+                    <a href="AppConfig.json" class="btn">View JSON</a>
+                </div>
+            </div>
+
+            <!-- SourceUrls Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🔗</div>
+                    <div>
+                        <h3 class="card-title">SourceUrls.json</h3>
+                        <p class="card-subtitle">Streaming Sources</p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Complete list of media streaming sources including anime, movies, and multi-content providers.</p>
+                    <div class="stats" id="source-stats"></div>
+                </div>
+                <div style="margin-top: 1rem;">
+                    <a href="SourceUrls.json" class="btn">View JSON</a>
+                </div>
+            </div>
+
+            <!-- HomeItemsConfig Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🏠</div>
+                    <div>
+                        <h3 class="card-title">HomeItemsConfig.json</h3>
+                        <p class="card-subtitle">Home Screen Categories</p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Defines the categories and content rows displayed on the home screen, including trending, genres, and curated collections.</p>
+                    <div class="stats" id="home-stats"></div>
+                </div>
+                <div style="margin-top: 1rem;">
+                    <a href="HomeItemsConfig.json" class="btn">View JSON</a>
+                </div>
+            </div>
+
+            <!-- SearchItemsConfig Card -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🔍</div>
+                    <div>
+                        <h3 class="card-title">SearchItemsConfig.json</h3>
+                        <p class="card-subtitle">Search & Discovery</p>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Configuration for search filters including TV networks, production companies, genres, and language options.</p>
+                    <div class="stats" id="search-stats"></div>
+                </div>
+                <div style="margin-top: 1rem;">
+                    <a href="SearchItemsConfig.json" class="btn">View JSON</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sources Detail Section -->
+        <section style="margin-top: 2rem;">
+            <h2 class="section-title">📡 Available Sources</h2>
+            <div id="sources-container">
+                <div class="loading">Loading sources...</div>
+            </div>
+        </section>
+
+        <footer>
+            <p>JarvisProvider Configuration Files</p>
+            <p style="font-size: 0.85rem; margin-top: 0.5rem;">Last updated: <span id="last-updated"></span></p>
+        </footer>
+    </div>
+
+    <script>
+        // Fetch and display AppConfig
+        async function loadAppConfig() {
+            try {
+                const response = await fetch('AppConfig.json');
+                const data = await response.json();
+
+                document.getElementById('app-version').textContent = data.build_name || 'N/A';
+
+                const statusBadge = data.maintenance
+                    ? '<span class="badge badge-warning">Maintenance Mode</span>'
+                    : '<span class="badge badge-success">Online</span>';
+                document.getElementById('app-status').innerHTML = statusBadge;
+
+                document.getElementById('update-info').textContent = data.update_info || '';
+
+                if (data.update_url) {
+                    const btn = document.getElementById('download-btn');
+                    btn.href = data.update_url;
+                    btn.style.display = 'inline-block';
+                }
+
+                // Populate table
+                const table = document.getElementById('app-config-table');
+                const rows = [
+                    ['Version', data.build_name],
+                    ['Build', data.build],
+                    ['Maintenance', data.maintenance ? 'Yes' : 'No']
+                ];
+                rows.forEach(([prop, val]) => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `<td>${prop}</td><td>${val}</td>`;
+                    table.appendChild(tr);
+                });
+            } catch (error) {
+                console.error('Error loading AppConfig:', error);
+            }
+        }
+
+        // Fetch and display SourceUrls
+        async function loadSourceUrls() {
+            try {
+                const response = await fetch('SourceUrls.json');
+                const data = await response.json();
+                const sources = data.sources || [];
+
+                // Calculate stats
+                const total = sources.length;
+                const enabled = sources.filter(s => s.enabled).length;
+                const disabled = total - enabled;
+                const animeCount = sources.filter(s => s.type === 'anime').length;
+                const movieCount = sources.filter(s => s.type === 'movie').length;
+                const allCount = sources.filter(s => s.type === 'all').length;
+                const asianCount = sources.filter(s => s.type === 'asian').length;
+
+                // Display stats
+                const statsContainer = document.getElementById('source-stats');
+                statsContainer.innerHTML = `
+                    <span class="stat"><span class="stat-label">Total:</span><span class="stat-value">${total}</span></span>
+                    <span class="stat"><span class="stat-label">Enabled:</span><span class="stat-value">${enabled}</span></span>
+                    <span class="stat"><span class="stat-label">Anime:</span><span class="stat-value">${animeCount}</span></span>
+                    <span class="stat"><span class="stat-label">Movie:</span><span class="stat-value">${movieCount}</span></span>
+                    <span class="stat"><span class="stat-label">All:</span><span class="stat-value">${allCount}</span></span>
+                `;
+
+                // Display sources list
+                const container = document.getElementById('sources-container');
+
+                // Group by type
+                const grouped = {
+                    anime: sources.filter(s => s.type === 'anime'),
+                    movie: sources.filter(s => s.type === 'movie'),
+                    all: sources.filter(s => s.type === 'all'),
+                    asian: sources.filter(s => s.type === 'asian')
+                };
+
+                let html = '';
+                for (const [type, items] of Object.entries(grouped)) {
+                    if (items.length === 0) continue;
+                    const typeLabel = type.charAt(0).toUpperCase() + type.slice(1);
+                    html += `<h3 style="margin: 1.5rem 0 1rem; color: var(--text-secondary);">${typeLabel} Sources (${items.length})</h3>`;
+                    html += '<div class="source-list">';
+                    items.forEach(source => {
+                        const statusClass = source.enabled ? 'enabled' : 'disabled';
+                        html += `
+                            <div class="source-item ${statusClass}">
+                                <span>${source.server}</span>
+                                <span class="badge ${source.enabled ? 'badge-success' : 'badge-warning'}">${source.enabled ? 'ON' : 'OFF'}</span>
+                            </div>
+                        `;
+                    });
+                    html += '</div>';
+                }
+                container.innerHTML = html;
+            } catch (error) {
+                console.error('Error loading SourceUrls:', error);
+                document.getElementById('sources-container').innerHTML = '<p class="loading">Failed to load sources</p>';
+            }
+        }
+
+        // Fetch and display HomeItemsConfig stats
+        async function loadHomeItems() {
+            try {
+                const response = await fetch('HomeItemsConfig.json');
+                const data = await response.json();
+
+                let totalCategories = 0;
+                let required = 0;
+
+                for (const [section, items] of Object.entries(data)) {
+                    if (Array.isArray(items)) {
+                        totalCategories += items.length;
+                        required += items.filter(i => i.required).length;
+                    }
+                }
+
+                const sections = Object.keys(data).length;
+
+                const statsContainer = document.getElementById('home-stats');
+                statsContainer.innerHTML = `
+                    <span class="stat"><span class="stat-label">Sections:</span><span class="stat-value">${sections}</span></span>
+                    <span class="stat"><span class="stat-label">Categories:</span><span class="stat-value">${totalCategories}</span></span>
+                    <span class="stat"><span class="stat-label">Required:</span><span class="stat-value">${required}</span></span>
+                `;
+            } catch (error) {
+                console.error('Error loading HomeItemsConfig:', error);
+            }
+        }
+
+        // Fetch and display SearchItemsConfig stats
+        async function loadSearchItems() {
+            try {
+                const response = await fetch('SearchItemsConfig.json');
+                const data = await response.json();
+
+                const networks = (data.networks || []).length;
+                const companies = (data.companies || []).length;
+                const genres = (data.genres || []).length;
+                const languages = (data.languages || []).length;
+
+                const statsContainer = document.getElementById('search-stats');
+                statsContainer.innerHTML = `
+                    <span class="stat"><span class="stat-label">Networks:</span><span class="stat-value">${networks}</span></span>
+                    <span class="stat"><span class="stat-label">Companies:</span><span class="stat-value">${companies}</span></span>
+                    <span class="stat"><span class="stat-label">Genres:</span><span class="stat-value">${genres}</span></span>
+                    <span class="stat"><span class="stat-label">Languages:</span><span class="stat-value">${languages}</span></span>
+                `;
+            } catch (error) {
+                console.error('Error loading SearchItemsConfig:', error);
+            }
+        }
+
+        // Set last updated date
+        document.getElementById('last-updated').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        // Load all data
+        loadAppConfig();
+        loadSourceUrls();
+        loadHomeItems();
+        loadSearchItems();
+    </script>
+</body>
+</html>
+
