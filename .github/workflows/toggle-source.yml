@@ -8,84 +8,84 @@ on:
         required: true
         type: choice
         options:
-          - Anizone
-          - TokyoInsider
-          - HiAnime
-          - AnimeOwl
-          - Zoro
-          - AnimePahe
-          - TwoEmbed
-          - Vidsrcto
+          - 4khdhub
           - AllMovieLand
-          - Player4uApi
-          - MoviesMod
-          - MoviesDrive
-          - HDhub4u
-          - Mapple
-          - Levidia
-          - MoviesApi
-          - CinemaCity
-          - Vidrock
-          - Soapy
-          - Vidlink
-          - HexaSu
-          - EmbedMaster
-          - CinemaOs
-          - Mp4Hydra
-          - Vidnest
-          - Vidfast
-          - Xdmovies
-          - VStream
-          - Vega
-          - DotMovies
-          - RogMovies
-          - Filmyfiy
-          - Elevenmovies
-          - FlixHQ
-          - Rido
-          - ExtraMovies
-          - TopMovies
-          - UHDMovies
-          - BollyflixVIP
-          - XPrime
-          - Hindmoviez
-          - RiveStream
-          - HdMovie2
-          - WebStreamr
-          - Vidzee
-          - Bollyflix
-          - Dreamfilm
-          - Filmxy
-          - AniXL
           - AnimeKai
-          - MultiEmbed
-          - Kisskh
-          - Ling
-          - Flixon
-          - NowTv
+          - AnimeOwl
+          - AnimePahe
+          - Animetosho
+          - Anitaku
+          - AniWave
+          - Aniwatch
+          - AniXL
+          - Anizone
+          - Bollyflix
+          - BollyflixVIP
+          - CinemaCity
+          - CinemaOs
+          - Crunchyroll
+          - Dahmer
+          - DotMovies
+          - Dreamfilm
+          - Elevenmovies
+          - EmbedMaster
+          - EmbedSu
           - EMovies
+          - ExtraMovies
+          - Filmxy
+          - Filmyfiy
+          - FlixHQ
+          - Flixon
+          - Goku
+          - HDhub4u
+          - HdMovie2
+          - HexaSu
+          - HiAnime
+          - Hindmoviez
+          - HinAPI
+          - Kisskh
+          - Levidia
+          - Ling
+          - Mapple
+          - MoFlix
+          - Morph
+          - MoviesDrive
+          - MoviesApi
+          - MoviesMod
+          - Mp4Hydra
+          - MultiEmbed
           - MultiMovies
+          - Nepu
+          - NowTv
+          - Player4uApi
+          - Primewire
+          - Rido
+          - RiveStream
+          - RogMovies
+          - Showflix
+          - Soapy
+          - TokyoInsider
+          - TomAPI
+          - TopMovies
+          - TwoEmbed
+          - UHDMovies
+          - Vega
+          - Vidfast
+          - Vidlink
+          - Vidnest
+          - Vidrock
+          - Vidsrc
+          - Vidsrcto
           - VidSrcVip
           - VidsrcXYZ
+          - Vidzee
+          - VStream
           - Watch32
-          - Vidsrc
-          - Animetosho
-          - Showflix
-          - 4khdhub
-          - MoFlix
+          - WebStreamr
+          - Xdmovies
+          - XPrime
           - Zoechip
-          - Nepu
-          - Dahmer
-          - EmbedSu
-          - Morph
-          - HinAPI
-          - Primewire
-          - Aniwatch
-          - TomAPI
-          - AniWave
-          - Crunchyroll
-          - Goku
-          - Anitaku
+          - Zoro
       action:
         description: 'Action to perform'
         required: true
