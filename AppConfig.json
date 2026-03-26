@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1773599121,
-  "build_name": "v5.7",
-  "update_info": "Enhancements:\n- Fixed OutOfMemory crash on player. \n- Fixed sources",
-  "update_url": "https://bit.ly/JarvisV5_7"
+  "build": 1774470384,
+  "build_name": "v5.8",
+  "update_info": "- Initial loading time decreased \\n-Added new sources - Filmyfiy, Levidia, Mapple",
+  "update_url": "https://bit.ly/JarvisV5_8"
 }
