@@ -62,7 +62,7 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.pink",
+      "url": "https://moviesmod.blue",
       "enabled": true,
       "type": "movie"
     },
@@ -74,7 +74,7 @@
     },
     {
       "server": "HDhub4u",
-      "url": "https://new4.hdhub4u.fo",
+      "url": "https://new5.hdhub4u.fo",
       "enabled": true,
       "type": "movie"
     },
@@ -135,6 +135,12 @@
     {
       "server": "CinemaOs",
       "url": "https://cinemaos.tech",
+      "enabled": true,
+      "type": "all"
+    },
+    {
+      "server": "VidPlus",
+      "url": "https://player.vidplus.pro",
       "enabled": true,
       "type": "all"
     },
@@ -230,7 +236,7 @@
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.sarl",
+      "url": "https://bollyflix.frl",
       "enabled": true,
       "type": "movie"
     },
@@ -272,7 +278,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.sarl",
+      "url": "https://bollyflix.frl",
       "enabled": true,
       "type": "movie"
     },
