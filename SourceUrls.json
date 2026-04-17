@@ -81,7 +81,7 @@
     {
       "server": "Mapple",
       "url": "https://mapple.uk",
-      "enabled": true,
+      "enabled": false,
       "type": "movie"
     },
     {
