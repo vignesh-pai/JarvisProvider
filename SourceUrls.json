@@ -73,6 +73,12 @@
       "type": "movie"
     },
     {
+      "server": "VidEasy",
+      "url": "https://api.videasy.net",
+      "enabled": true,
+      "type": "all"
+    },
+    {
       "server": "MoviesDrive",
       "url": "https://new2.moviesdrives.my",
       "enabled": true,
