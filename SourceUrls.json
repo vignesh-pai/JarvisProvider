@@ -13,6 +13,12 @@
       "type": "anime"
     },
     {
+      "server": "Kuudere",
+      "url": "https://kuudere.to",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
       "server": "HiAnime",
       "url": "https://hianime.to",
       "enabled": true,
@@ -62,13 +68,13 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.blue",
+      "url": "https://moviesmod.farm",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "MoviesDrive",
-      "url": "https://new1.moviesdrives.my",
+      "url": "https://new2.moviesdrives.my",
       "enabled": true,
       "type": "movie"
     },
@@ -100,7 +106,7 @@
       "server": "CinemaCity",
       "url": "https://cinemacity.cc",
       "enabled": true,
-      "type": "movie"
+      "type": "all"
     },
     {
       "server": "Vidrock",
@@ -194,7 +200,7 @@
     },
     {
       "server": "Filmyfiy",
-      "url": "https://new2.filmyfiy.org",
+      "url": "https://1filmyfly.fyi",
       "enabled": true,
       "type": "movie"
     },
@@ -218,7 +224,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://rogmovies.pics",
+      "url": "https://extramovies.miami",
       "enabled": true,
       "type": "movie"
     },
@@ -248,7 +254,7 @@
     },
     {
       "server": "Hindmoviez",
-      "url": "https://hindmoviez.cafe",
+      "url": "https://hindmovie.ltd",
       "enabled": true,
       "type": "movie"
     },
@@ -344,7 +350,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.autos",
+      "url": "https://multimovies.fyi",
       "enabled": true,
       "type": "all"
     },
