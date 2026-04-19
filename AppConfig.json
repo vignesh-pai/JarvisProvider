@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1774470384,
-  "build_name": "v5.8",
-  "update_info": "- Initial loading time decreased \n-Added new sources - Filmyfiy, Levidia, Mapple",
-  "update_url": "https://bit.ly/JarvisV5_8"
+  "build": 1776587896,
+  "build_name": "v5.9",
+  "update_info": "- Added VidEasy source \\n-Home Screen loading improved \\n-Fixed sources",
+  "update_url": "https://bit.ly/JarvisV5_9"
 }
