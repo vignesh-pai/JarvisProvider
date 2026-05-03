@@ -188,7 +188,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.vodka",
+      "url": "https://vegamovies.market",
       "enabled": true,
       "type": "movie"
     },
@@ -200,13 +200,13 @@
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.vip",
+      "url": "https://rogmovies.blog",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "Filmyfiy",
-      "url": "https://1filmyfly.fyi",
+      "url": "https://1filmyfly.dad",
       "enabled": true,
       "type": "movie"
     },
@@ -242,13 +242,13 @@
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.ink",
+      "url": "https://uhdmovies.pink",
       "enabled": true,
       "type": "all"
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.frl",
+      "url": "https://bollyflix.moda",
       "enabled": true,
       "type": "movie"
     },
@@ -272,7 +272,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.restaurant",
+      "url": "https://hdmovie2.equipment",
       "enabled": true,
       "type": "movie"
     },
@@ -290,7 +290,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.frl",
+      "url": "https://bollyflix.moda",
       "enabled": true,
       "type": "movie"
     },
@@ -398,7 +398,7 @@
     },
     {
       "server": "4khdhub",
-      "url": "https://4khdhub.dad",
+      "url": "https://4khdhub.click",
       "enabled": true,
       "type": "movie"
     },
