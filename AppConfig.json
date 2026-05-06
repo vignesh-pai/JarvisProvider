@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1776587896,
-  "build_name": "v5.9",
-  "update_info": "- Added VidEasy source \n- Home Screen loading improved \n- Fixed sources",
-  "update_url": "https://bit.ly/JarvisV5_9"
+  "build": 1778014506,
+  "build_name": "v6.0",
+  "update_info": "- Added In-App PIP \\n - Added new sources Xpass and Vaplayer - Fixed sources - Download available from multiple servers",
+  "update_url": "https://bit.ly/JarvisV6_0"
 }
