@@ -61,7 +61,8 @@ jobs:
           
           # Update update_info if provided
           if [ -n "${{ github.event.inputs.update_info }}" ]; then
-            jq --arg info "${{ github.event.inputs.update_info }}" '.update_info = $info' AppConfig.json > tmp.json && mv tmp.json AppConfig.json
+            # Convert literal "\n" sequences from workflow input into real line breaks.
+            jq --arg info "${{ github.event.inputs.update_info }}" '.update_info = ($info | gsub("\\\\n"; "\n"))' AppConfig.json > tmp.json && mv tmp.json AppConfig.json
             CHANGES="${CHANGES}update_info, "
             echo "✅ Updated update_info"
           fi
