@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1778014506,
-  "build_name": "v6.0",
-  "update_info": "- Added In-App PIP \n- Added new sources Xpass and Vaplayer \n- Fixed sources \n- Download available from multiple servers",
-  "update_url": "https://bit.ly/JarvisV6_0"
+  "build": 1779530047,
+  "build_name": "v6.1",
+  "update_info": "- Added pause feature for downloads \n- Added new source movies4u \n- Fixed sources",
+  "update_url": "https://bit.ly/JarvisV6_1"
 }
