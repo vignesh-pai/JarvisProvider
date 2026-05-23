@@ -103,6 +103,12 @@
       "type": "movie"
     },
     {
+      "server": "Movies4u",
+      "url": "https://new3.movies4u.style",
+      "enabled": true,
+      "type": "all"
+    },
+    {
       "server": "Mapple",
       "url": "https://mapple.uk",
       "enabled": false,
@@ -184,7 +190,7 @@
       "server": "Vidfast",
       "url": "https://vidfast.pro",
       "enabled": true,
-      "type": "movie"
+      "type": "all"
     },
     {
       "server": "Xdmovies",
@@ -248,19 +254,19 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://moviesleech.link",
+      "url": "https://moviesleech.rodeo",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.pink",
+      "url": "https://uhdmovies.rodeo",
       "enabled": true,
       "type": "all"
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.gd",
+      "url": "https://bollyflix.ski",
       "enabled": true,
       "type": "movie"
     },
@@ -302,7 +308,7 @@
     },
     {
       "server": "Bollyflix",
-      "url": "https://bollyflix.gd",
+      "url": "https://bollyflix.ski",
       "enabled": true,
       "type": "movie"
     },
