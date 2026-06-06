@@ -80,13 +80,13 @@
     },
     {
       "server": "MoviesDrive",
-      "url": "https://new2.moviesdrives.my",
+      "url": "https://new3.moviesdrives.my",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "HDhub4u",
-      "url": "https://new1.hdhub4u.limo",
+      "url": "https://new1.hdhub4u.cl",
       "enabled": true,
       "type": "movie"
     },
@@ -104,7 +104,7 @@
     },
     {
       "server": "Movies4u",
-      "url": "https://new3.movies4u.style",
+      "url": "https://new1.movies4u.finance",
       "enabled": true,
       "type": "all"
     },
@@ -218,7 +218,7 @@
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.blog",
+      "url": "https://rogmovies.club",
       "enabled": true,
       "type": "movie"
     },
@@ -248,7 +248,7 @@
     },
     {
       "server": "ExtraMovies",
-      "url": "https://extramovies.miami",
+      "url": "https://extramovies.miami/cgi-sys/suspendedpage.cgi",
       "enabled": true,
       "type": "movie"
     },
@@ -290,7 +290,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.com.se",
+      "url": "https://hdmovie2.org.uk",
       "enabled": true,
       "type": "movie"
     },
@@ -374,7 +374,7 @@
     },
     {
       "server": "MultiMovies",
-      "url": "https://multimovies.fyi",
+      "url": "https://multimovies.homes",
       "enabled": true,
       "type": "all"
     },
@@ -416,7 +416,7 @@
     },
     {
       "server": "4khdhub",
-      "url": "https://4khdhub.link",
+      "url": "https://4khdhub.one",
       "enabled": true,
       "type": "movie"
     },
