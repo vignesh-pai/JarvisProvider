@@ -68,7 +68,7 @@
     },
     {
       "server": "MoviesMod",
-      "url": "https://moviesmod.farm",
+      "url": "https://moviesmod.army",
       "enabled": true,
       "type": "movie"
     },
@@ -86,7 +86,7 @@
     },
     {
       "server": "HDhub4u",
-      "url": "https://new1.hdhub4u.cl",
+      "url": "https://new2.hdhub4u.cl",
       "enabled": true,
       "type": "movie"
     },
@@ -104,7 +104,7 @@
     },
     {
       "server": "Movies4u",
-      "url": "https://new1.movies4u.finance",
+      "url": "https://new2.movies4u.finance",
       "enabled": true,
       "type": "all"
     },
@@ -206,7 +206,7 @@
     },
     {
       "server": "Vega",
-      "url": "https://vegamovies.market",
+      "url": "https://vegamovies.navy",
       "enabled": true,
       "type": "movie"
     },
@@ -218,13 +218,13 @@
     },
     {
       "server": "RogMovies",
-      "url": "https://rogmovies.club",
+      "url": "https://rogmovies.work",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "Filmyfiy",
-      "url": "https://ww1.filmyfly.ing",
+      "url": "https://filmyfly.cafe",
       "enabled": true,
       "type": "movie"
     },
@@ -254,19 +254,19 @@
     },
     {
       "server": "TopMovies",
-      "url": "https://moviesleech.rodeo",
+      "url": "https://moviesleech.bar",
       "enabled": true,
       "type": "movie"
     },
     {
       "server": "UHDMovies",
-      "url": "https://uhdmovies.rodeo",
+      "url": "https://uhdmovies.food",
       "enabled": true,
       "type": "all"
     },
     {
       "server": "BollyflixVIP",
-      "url": "https://bollyflix.ski",
+      "url": "https://bollyflix.med",
       "enabled": true,
       "type": "movie"
     },
@@ -278,7 +278,7 @@
     },
     {
       "server": "Hindmoviez",
-      "url": "https://hindmovie.ltd",
+      "url": "https://hindmovie.icu",
       "enabled": true,
       "type": "movie"
     },
@@ -290,7 +290,7 @@
     },
     {
       "server": "HdMovie2",
-      "url": "https://hdmovie2.org.uk",
+      "url": "https://hdmovie2a.net",
       "enabled": true,
       "type": "movie"
     },
