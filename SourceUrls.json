@@ -19,6 +19,18 @@
       "type": "anime"
     },
     {
+      "server": "Anikage",
+      "url": "https://anikage.cc",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
+      "server": "Anineko",
+      "url": "https://anineko.to",
+      "enabled": true,
+      "type": "anime"
+    },
+    {
       "server": "HiAnime",
       "url": "https://hianime.to",
       "enabled": true,
@@ -100,7 +112,7 @@
       "server": "VaPlayer",
       "url": "https://streamdata.vaplayer.ru",
       "enabled": true,
-      "type": "movie"
+      "type": "all"
     },
     {
       "server": "Movies4u",
@@ -418,7 +430,7 @@
       "server": "4khdhub",
       "url": "https://4khdhub.one",
       "enabled": true,
-      "type": "movie"
+      "type": "all"
     },
     {
       "server": "MoFlix",
