@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1779530047,
-  "build_name": "v6.1",
-  "update_info": "- Added pause feature for downloads \n- Added new source movies4u \n- Fixed sources",
-  "update_url": "https://bit.ly/JarvisV6_1"
+  "build": 1782567041,
+  "build_name": "v6.2",
+  "update_info": "- Added Anineko and Anikage \n- Minor performance improvements",
+  "update_url": "https://bit.ly/JarvisV6_2"
 }
