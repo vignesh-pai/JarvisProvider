@@ -1,3 +1,25 @@
 # Default ignored files
 /shelf/
 /.idea
+
+# Gradle build artifacts
+.gradle/
+build/
+**/build/
+out/
+*.class
+
+# Never track compiled JARs (the release JARs live in GitHub Releases, not the repo)
+*.jar
+# ...except the Gradle wrapper JAR which is required to bootstrap Gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ / Android Studio project files
+*.iml
+*.ipr
+*.iws
+local.properties
+
+# OS files
+.DS_Store
+Thumbs.db

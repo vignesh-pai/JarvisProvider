@@ -1,0 +1,40 @@
+{
+  "repository_version": "1.0",
+  "last_updated": "2026-07-04T09:45:00Z",
+  "plugins": [
+    {
+      "id": "provider.vaplayer",
+      "name": "VaPlayer",
+      "version": "1.0.0",
+      "description": "VaPlayer streaming provider",
+      "author": "Jarvis Team",
+      "minApiVersion": 1,
+      "maxApiVersion": 1,
+      "minAppVersion": "2.0.0",
+      "supportedTypes": ["movie", "series"],
+      "downloadUrl": "https://github.com/vignesh-pai/JarvisProvider/releases/download/vaplayer-v1.0.0/vaplayer-provider-1.0.0.jar",
+      "checksumSha256": "PENDING",
+      "changelog": "Initial release",
+      "size_bytes": -1,
+      "last_updated": "2026-07-04T09:45:00Z",
+      "enabled": true
+    },
+    {
+      "id": "provider.hulu",
+      "name": "Hulu Provider",
+      "version": "1.0.0",
+      "description": "Hulu streaming provider",
+      "author": "Jarvis Team",
+      "minApiVersion": 1,
+      "maxApiVersion": 1,
+      "minAppVersion": "2.0.0",
+      "supportedTypes": ["movie", "series"],
+      "downloadUrl": "https://github.com/vignesh-pai/JarvisProvider/releases/download/hulu-v1.0.0/hulu-provider-1.0.0.jar",
+      "checksumSha256": "PENDING",
+      "changelog": "Initial release",
+      "size_bytes": -1,
+      "last_updated": "2026-07-04T09:05:00Z",
+      "enabled": true
+    }
+  ]
+}
