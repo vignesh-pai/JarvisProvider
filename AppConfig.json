@@ -1,7 +1,7 @@
 {
   "maintenance": false,
-  "build": 1782567041,
-  "build_name": "v6.2",
-  "update_info": "- Added Anineko and Anikage \n- Minor performance improvements",
-  "update_url": "https://bit.ly/JarvisV6_2"
+  "build": 1791060148,
+  "build_name": "v6.3",
+  "update_info": "- Updated sources \n- Minor Bug fixes",
+  "update_url": "https://bit.ly/JarvisV6_3"
 }
